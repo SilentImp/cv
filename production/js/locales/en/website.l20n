@@ -23,6 +23,7 @@
 <fact_3 "Representative of <a>Web Standards</a> community in Ukraine">
 <fact_4 "Founder and chief-editor of <a>Frontender Magazine</a>">
 <fact_5 "Speaker at local and international web development conferences">
+<fact_6 "<a>UA Web Challenge</a> expert">
 
 <contacts "Contacts">
 
@@ -92,7 +93,8 @@
 <time_19 "Ekaterinburg, March 14, 2014">
 <time_20 "Ekaterinburg, March 14, 2014">
 <time_21 "Moscow, April 14, 2014">
-
+<time_22 "Riga, May 24, 2014">
+<time_23 "Minsk, August 24, 2014">
 
 <talk_title_1 "HTML5 and CSS3">
 <talk_title_2 "Overview of the new JavaScript API">
@@ -104,6 +106,7 @@
 <talk_title_18 "Lost Specifications">
 <talk_title_19 "One Year of Frontender Magazine">
 <talk_title_20 "Localization and Internationalization">
+<talk_title_21 "WebGL and Lazy Game Dev">
 
 <talk_abstract_1 "Evolution of webstandards">
 <talk_abstract_2 "HTML5 specification and other W3C specification drafts">
@@ -115,4 +118,5 @@
 <talk_abstract_18 "JavaScript API we forget or even don't know about">
 <talk_abstract_19 "Magazine goals, history and what we had achieved for the last year">
 <talk_abstract_20 "Overview of international specifications and localization process with i18next and l20n">
+<talk_abstract_21 "Lazy game development with use WebGl and Three.js">
 
