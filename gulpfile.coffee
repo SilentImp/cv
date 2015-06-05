@@ -71,10 +71,14 @@ gulp.task('images', ()->
 )
 
 gulp.task('deploy', ()->
-  gulp.src(development_path.production)
-    .pipe(deploy(
-        remoteUrl: 'git@github.com:SilentImp/cv.git'
-      ))
+  console.log 'deploying'
+  return gulp.src(development_path.production)
+    .pipe(deploy({
+      cacheDir:   'gh-cache',
+      remoteUrl:  'git@github.com:SilentImp/cv.git'
+    }).on('error', ()->
+      console.log('error', arguments)
+    ))
 )
 
 gulp.task('watch', ()->
