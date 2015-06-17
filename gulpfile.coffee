@@ -75,12 +75,11 @@ gulp.task('build', ['jade', 'stylus', 'coffee'], ()->
 
 )
 
-gulp.task('deploy', ()->
+gulp.task('deploy',  (done)->
   console.log 'deploying'
   buildbranch(
       folder: 'production'
-    , ()->
-      console.log 'deploy success'
+    , done
   ).on('error', ()->
     console.log 'error', arguments
   )
