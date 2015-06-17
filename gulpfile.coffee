@@ -80,8 +80,6 @@ gulp.task('deploy',  (done)->
   buildbranch(
       folder: 'production'
     , done
-  ).on('error', ()->
-    console.log 'error', arguments
   )
 )
 
