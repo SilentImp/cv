@@ -1,0 +1,360 @@
+.loading
+  position fixed
+  top 0
+  bottom 0
+  right 0
+  left 0
+  background-color #FFF
+  background-position 50% 50%
+  background-repeat no-repeat  
+  background-image url('../svg/clock.svg')
+  background-size 40px
+  z-index 32000
+  opacity 1
+  transition opacity .25s
+  &.loaded
+    pointer-events none
+    opacity 0
+    
+html.no-svg .loading
+  background-image url('../svg/clock.png')
+  
+
+body>header
+  padding 5.236rem 3.236rem 0 
+  max-width 50rem
+  margin auto
+  position relative
+  white-space nowrap
+  h1
+    font-size 4.8rem
+    display inline-block
+    
+html[lang^="ru"] 
+  .pdf a[lang^="en"],
+  .language a[lang^="ru"]
+    display none
+  
+html[lang^="en"] 
+  .pdf a[lang^="ru"],
+  .language a[lang^="en"]
+    display none
+
+.pdf
+  position absolute
+  top 1.5rem
+  left 0
+  right 0
+  text-align center
+  a
+    font-size .85rem 
+    display inline-block
+    border 1px solid #e8e8e8
+    padding .25rem .5rem
+    border-radius 3px
+    text-decoration none
+    text-transform uppercase
+    &:hover
+      background-color #e8e8e8 
+  
+
+.language
+  display inline-block
+  vertical-align middle
+  position relative
+  
+  a
+    position absolute
+    bottom -1.5rem
+    left 1rem
+    text-decoration none
+    white-space nowrap
+    font-size .85rem
+    display block
+    width 6rem
+    height 6rem
+    line-height 6rem
+    border-radius 100%
+    text-align center
+    background-color #e8e8e8
+    &:hover 
+      background-color darken(#e8e8e8, 10%)
+      &:after
+        border-color darken(#e8e8e8, 10%) transparent transparent
+    &:after
+      content ""
+      display block
+      height 0
+      width 0
+      position absolute
+      top 100%
+      left 50%
+      margin -.1rem 0 0 -.4rem 
+      line-height 0
+      overflow hidden
+      border-style solid
+      border-color #e8e8e8 transparent transparent
+      border-width .85rem .4rem 0  
+      transform-origin 50% -2.9rem
+      transform rotate(50deg)
+      
+
+section
+  max-width 50rem
+  margin 3.236rem auto 6.472rem
+  padding 0 3.236rem
+  
+  header
+    box-sizing border-box
+    vertical-align middle
+    
+  .wrapper
+    margin auto
+    box-sizing border-box
+    line-height 1.618rem
+
+  table
+    width 100%
+    font-size 1rem 
+    th,
+    td
+      box-sizing border-box
+      padding 0.809rem 1.618rem
+      border-bottom 1px solid #e8e8e8
+      &:first-child
+        width 10rem
+        padding-left 0
+    td
+      p
+        margin 0
+      p+p 
+        margin 1.618rem 0 0
+    th
+      text-transform uppercase
+      padding-bottom 3.236rem
+    tr:last-child td
+      border-bottom-style none
+     
+  &.examples
+    
+    font-size 0
+    line-height 0
+    &:after
+      clear both
+      content ""
+      display block
+      height 0
+      line-height 0
+      font-size 0
+      overflow hidden
+      
+    .slides
+      article
+        float left
+        width 50%
+        box-sizing border-box
+        padding 0 0 1px 1px
+      figure
+        text-align center
+        width 100%
+        height 350px
+        border 1px solid #e8e8e8
+        line-height 350px
+        overflow hidden
+        display inline-block
+        vertical-align top
+        position relative
+        box-sizing border-box
+        display table
+        vertical-align middle
+        object,
+        img
+          width 100%
+          min-width 100%
+          min-height 100%
+          vertical-align middle
+          display inline-block
+          position absolute
+          left 0
+          top 0
+          bottom 0
+          right 0
+          z-index 1
+        &:hover 
+          figcaption
+            opacity 1
+            transform scale(1)
+            box-shadow 0 0 0 400px rgba(0,0,0,.1)
+        .open
+          display block
+          width 3rem
+          height 3rem
+          position absolute
+          left 1px
+          bottom 1px
+          line-height 3rem
+          text-align center
+          background-color #FFF
+          color #000  
+          z-index 3
+          .open:after
+            content "+"
+            font-size 24px
+        figcaption
+          vertical-align middle
+          white-space nowrap
+          overflow hidden
+          text-overflow ellipsis
+          transition transform .25s, opacity .25s
+          background-color rgba(255,255,255,1) 
+          padding 0.5rem
+          text-align left
+          font-size 0.85rem
+          line-height 1.618rem
+          position relative
+          display inline-block
+          z-index 2
+          transform scale(.8)
+          opacity 0
+
+  &.talks
+    table
+      td:first-child
+        width 33%
+        h2
+          color #333
+          margin 0
+          font-size 1.618rem
+          line-height 2rem
+      td
+        font-size .85rem
+        color #666
+        padding .4045rem 1.618rem
+        p
+          font-size .85rem
+        h2
+          color #333
+          line-height 2rem
+          margin 0
+          font-size 1.4rem
+          
+  &.skills
+    table
+      tbody+thead th
+        border-top 1px solid #e8e8e8 
+        padding-top 1.618rem
+      th,
+      td
+        width 25%
+        border-bottom-style none
+        border-right 1px solid #e8e8e8
+        padding 0.4045rem 1.618rem
+      th:first-child,
+      td:first-child
+        width 25%
+        padding-left 0
+      th
+        font-size 1rem 
+        padding 0.4045rem 1.618rem 1.618rem 
+        color #666
+      th:last-child,
+      td:last-child
+        border-right-style none 
+      tr:last-child td
+        padding-bottom 1.618rem
+        
+
+@media (max-width: 55rem)
+  body>header h1
+    font-size 4rem
+    white-space normal
+    
+@media (max-width: 45rem)
+  body>header h1
+    font-size 3rem
+    white-space normal
+  section.skills
+    table
+      thead
+        th
+          font-size 0.85rem
+          padding-bottom 0.4045rem
+      th,td
+        padding 0
+        border-right-style none
+
+    
+@media (max-width: 37rem)
+  body>header h1
+    font-size 2rem
+    white-space normal
+  html, 
+  html body
+    font-size 14px
+    
+@media (max-width: 25rem)
+  body>header h1
+    font-size 1.7rem
+    white-space normal
+  html, 
+  html body
+    font-size 12px
+
+@media print and (color)
+  *
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+
+@media print
+  nav.language,
+  nav.pdf
+    display none
+    
+  img
+    max-height 100%
+  
+  html, 
+  html body
+    font-size 12px !important
+    color #000
+    background #fff
+  
+  a
+    text-decoration none
+    
+  section
+    max-width none
+    page-break-inside avoid
+    &.talks
+      page-break-inside auto
+    tr,
+    td,
+    th
+      page-break-inside avoid
+        
+      
+  a[href^=htt]:after
+    content " <" attr(href) "> "
+    
+  a.link-inside[href^=htt]:after
+    display none
+    
+  body>header
+    padding-top 0
+        
+    h1
+      padding 0
+      font-size 3rem
+      &:after
+        content url("http://qrcode.kaywa.com/img.php?s=5&d=http://websaints.net/cv/cv.html")
+        position absolute
+        right 0
+        top 0
+
+    
+  img
+    page-break-inside avoid
+    
+  @page
+    margin 1cm
+    

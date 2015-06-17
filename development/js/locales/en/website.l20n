@@ -1,0 +1,130 @@
+<html
+  lang: "en">
+
+<summary "Abstract">
+
+<name_title "Name:">
+<name_value "Anton Nemtsev">
+
+<bdate_title "Date of Birth:">
+<bdate_value "May 21, 1983">
+
+<citizenship_title "Citizenship:">
+<citizenship_value "Ukraine">
+
+<lang_title "Languages:">
+<lang_value "Russian, Ukrainian, English">
+
+<status_title "Status:">
+<status_value "Available for hire">
+
+<fact_1 "Freelance developer from 2000 till now">
+<fact_2 "Full-stack developer">
+<fact_3 "Representative of <a>Web Standards</a> community in Ukraine">
+<fact_4 "Founder and chief-editor of <a>Frontender Magazine</a>">
+<fact_5 "Speaker at local and international web development conferences">
+<fact_6 "<a>UA Web Challenge</a> expert">
+
+<contacts "Contacts">
+
+<tel "Phone (UA):">
+<web "Site:">
+
+<education "Education">
+
+<place_1 "Physical &amp; Mathematical School">
+<place_2 "National Technical University of Ukraine 'Kyiv Polytechnic Institute’, Post-Graduate Study">
+
+<grade_1 "Specialist degree in development of electronic devices">
+<grade_2 "Master's degree in computer science">
+
+<expirience "Experience">
+
+<expirience_1 """
+  <p>Projects development for advertising agencies R.A.M. and <a>Paradigm Consulting Group</a></p>
+  <p>Working with such brands as Pall Mall, Kent, Camel, Lays, Kinder, DreamWorks, MTv, Indesit, Samsung etc.</p>
+  <p>Providing services as frontend-developer, flash-developer (drawing, animaton, ActionScript), designer.</p>
+""">
+
+<expirience_2 "Development of <a>http://www.pokeroff.ru/</a>">
+
+<expirience_3 "Working with <a>Evil Martians</a> studio. Among projects are <a>http://groupon.ru/</a> and <a>http://i-lift.tv/</a>">
+
+<expirience_4 "Development of <a>http://zn.ua/</a> and http://znaki.fm/">
+
+<expirience_5 "Development of Giftofoni">
+
+<expirience_6 "Development of Focal Point for Parallels Software">
+
+<expirience_7 """
+  Work as frontend-developer in projects of <a>Aligned Code</a>, Binary Garage, Yoke Labs, <a>CB Territory</a>.
+""">
+
+<skills "Skills">
+
+<markup "Markup">
+<scripts "Scripting">
+<styles "Styles">
+<automatization "Automatization">
+<additional "Additional">
+<bd "Database">
+<serverside "Backend">
+
+
+<talks "Speaking">
+
+<video "Video">
+<repo "GitHub">
+<slides "Presentation">
+<slides_online "Presentation online">
+
+<time_1 "Riga, May 22, 2010">
+<time_2 "Kyiv, September 18, 2010">
+<time_3 "Kyiv, October 22, 2011">
+<time_4 "Minsk, October 29, 2011">
+<time_5 "Moscow, December 13, 2011">
+<time_6 "Moscow, April 2, 2012">
+<time_7 "St. Petersburg, June 23, 2012">
+<time_8 "Amsterdam, October 3, 2012">
+<time_9 "Kyiv, October 13, 2012">
+<time_10 "Kharkiv, December 15, 2012">
+<time_11 "Moscow, November 24, 2012">
+<time_12 "Moscow, April 23, 2013">
+<time_13 "Yekaterinburg, May 24, 2013">
+<time_14 "Kharkiv, June 22, 2013">
+<time_15 "Kazantip, August 22, 2013">
+<time_16 "Minsk, September 19, 2013">
+<time_17 "Minsk, September 19, 2013">
+<time_18 "Kyiv, October 26, 2013">
+<time_19 "Ekaterinburg, March 14, 2014">
+<time_20 "Ekaterinburg, March 14, 2014">
+<time_21 "Moscow, April 14, 2014">
+<time_22 "Riga, May 24, 2014">
+<time_23 "Minsk, August 24, 2014">
+<time_24 "Kyiv, May 24, 2015">
+
+<talk_title_1 "HTML5 and CSS3">
+<talk_title_2 "Overview of the new JavaScript API">
+<talk_title_5 "Editing Content in the Browser">
+<talk_title_6 "On the Edge">
+<talk_title_8 "Some Funy CSS Tricks You May Use in Lazy Game Dev">
+<talk_title_11 "JavaScript Patterns">
+<talk_title_16 "Frontender Magazine">
+<talk_title_18 "Lost Specifications">
+<talk_title_19 "One Year of Frontender Magazine">
+<talk_title_20 "Localization and Internationalization">
+<talk_title_21 "WebGL and Lazy Game Dev">
+<talk_title_22 "Offline first">
+
+<talk_abstract_1 "Evolution of webstandards">
+<talk_abstract_2 "HTML5 specification and other W3C specification drafts">
+<talk_abstract_5 "How it should be, how it is and why do we need it anyway">
+<talk_abstract_6 "3D and 2D-animation and emotions in the web with CSS">
+<talk_abstract_11 "What is it, why to use them and common patterns">
+<talk_abstract_12 "Lazy development of casual games with JavaScript and DOM">
+<talk_abstract_16 "About magazine, why it was founded and where frontend developers come from">
+<talk_abstract_18 "JavaScript API we forget or even don't know about">
+<talk_abstract_19 "Magazine goals, history and what we had achieved for the last year">
+<talk_abstract_20 "Overview of international specifications and localization process with i18next and l20n">
+<talk_abstract_21 "Lazy game development with use WebGl and Three.js">
+<talk_abstract_22 "What is offline first and how it may be used for your profit">
