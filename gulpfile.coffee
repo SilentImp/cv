@@ -9,7 +9,7 @@ coffee      = require 'gulp-coffee'
 jade        = require 'gulp-jade'
 minify_html = require 'gulp-minify-html'
 minify_css  = require 'gulp-minify-css'
-deploy      = require 'gulp-gh-pages'
+buildbranch = require 'buildbranch'
 
 development_path =
   images:     './development/images/**'
@@ -71,19 +71,19 @@ gulp.task('images', ()->
 )
 
 gulp.task('build', ['jade', 'stylus', 'coffee'], ()->
-    
-  
+
+
 )
 
 gulp.task('deploy', ()->
   console.log 'deploying'
-  return gulp.src(development_path.production)
-    .pipe(deploy({
-      cacheDir:   'gh-cache',
-      remoteUrl:  'git@github.com:SilentImp/cv.git'
-    }).on('error', ()->
-      console.log('error', arguments)
-    ))
+  buildbranch(
+      folder: 'production'
+    , ()->
+      console.log 'deploy success'
+  ).on('error', ()->
+    console.log 'error', arguments
+  )
 )
 
 gulp.task('watch', ()->
