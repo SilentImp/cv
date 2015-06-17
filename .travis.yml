@@ -1,9 +1,14 @@
+sudo: false
+language: node_js
 branches:
   only:
   - master
 before_script:
-- git config --global user.email "thesilentimp@gmail.com"
-- git config --global user.name "Anton Nemtsev"
+  - git config --global user.email "thesilentimp@gmail.com"
+  - git config --global user.name "Anton Nemtsev"
+  - git remote rm origin
+  - git remote add origin https://silentimp:${GH_TOKEN}github.com/SilentImp/cv.git
+script: gulp build
 env:
   global:
     secure: ps4m/WDxev42YN7b+rA6MM9N/iie8rW6+cDkPxjexEIBSNlRrsaNHXCFbDKx4kIYueDR/YiFoAa3ok5wsLfgAfVuEoLTLotfyJ2q0c5GE0Io2qieGqLUSwr+oh2YDJC87I6cLTIGCQNfI85mNUFlcNorJQoHjO2ze8DHQpTNWEfUNqK1Q+oWoJjC2QO2xd86vRCtR1eHSfLajN0xRtKoIs+HO4O3qy92iK+JgNDFfrNJGnhwB2BTL+KvShS0/jn4RobVoUpW4ttIqpRgfhqtLXAPuSvj737z00YAmTtdxYSNVgv42/jEjFvDwQ5SGd7mRfPPhWMWkg5ul/sk7B27ACLNb/3YwfqsreFi5akWKEMrxvORyNT+BYCAAv5z+vXeBZL/qgOkw9Cgxqqj9w31CsindWHRmIh9E50yMhM3vk1XbQob5AT+xvWgWl0E7Csf3uG3mOPTCZvDdNT7gVDTnBvoXFS0i/miicWCobyRrwDzjWiOSsj4ZLECxsjo6Ls3Ki8ykcmzLKED0AzdIXvjIUdJ873unhWuG4VInEtpWWR8MWNcOgX+VZ6GMeDuQPX5fFjt/MpMwfQPJI8El6IVhzvGuXOJ0gYv9KN8F4tC+PTgfpk0S9UXFx3QTg+0gXANWyZIqqZEBlxYgGcLyBJNgNhvLAuifBZj5B6vYNNfWpg=
