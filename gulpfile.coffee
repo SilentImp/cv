@@ -70,6 +70,11 @@ gulp.task('images', ()->
     .pipe gulp.dest(production_path.images)
 )
 
+gulp.task('build', ['jade', 'stylus', 'coffee'], ()->
+    
+  
+)
+
 gulp.task('deploy', ()->
   console.log 'deploying'
   return gulp.src(development_path.production)
