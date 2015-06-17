@@ -4,6 +4,7 @@
   "description": "CURRICULUM VITAE",
   "main": "./production/cv.html",
   "dependencies": {
+    "coffee-script": "^1.9.3",
     "gulp": "~3.6.0",
     "gulp-gh-pages": "^0.5.2"
   },
