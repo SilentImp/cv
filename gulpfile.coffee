@@ -17,12 +17,14 @@ development_path =
   stylus:     './development/stylus/**'
   jade:       './development/**.jade'
   production: './production/**'
+  copy:       ['./development/{pdf,svg,js}/**', './development/CNAME']
 
 production_path =
-  images: './production/images/'
-  js:     './production/js/'
-  css:    './production/css/'
-  html:   './production/'
+  images: './build/images/'
+  js:     './build/js/'
+  css:    './build/css/'
+  html:   './build/'
+  copy:   './build/'
 
 
 gulp.task('stylus', ()->
@@ -41,6 +43,11 @@ gulp.task('stylus', ()->
       removeEmpty: true
     ))
     .pipe gulp.dest(production_path.css)
+)
+
+
+gulp.task('copy', ()->
+  gulp.src(development_path.copy).pipe(gulp.dest(production_path.copy))
 )
 
 gulp.task('coffee', ()->
@@ -62,14 +69,6 @@ gulp.task('jade', ()->
     .pipe gulp.dest(production_path.html)
 )
 
-gulp.task('images', ()->
-  gulp.src(development_path.images)
-    .pipe(imagemin(
-      optimizationLevel: 3
-    ))
-    .pipe gulp.dest(production_path.images)
-)
-
 gulp.task('build', ['jade', 'stylus', 'coffee'], ()->
 
 
@@ -78,7 +77,7 @@ gulp.task('build', ['jade', 'stylus', 'coffee'], ()->
 gulp.task('deploy',  (done)->
   console.log 'deploying'
   buildbranch(
-      folder: 'production'
+      folder: 'build'
     , done
   )
 )
@@ -87,7 +86,6 @@ gulp.task('watch', ()->
   gulp.watch development_path.jade,   ['jade']
   gulp.watch development_path.stylus, ['stylus']
   gulp.watch development_path.coffee, ['coffee']
-  # gulp.watch development_path.images, ['images']
 )
 
 gulp.task 'default', ['jade', 'stylus', 'coffee', 'watch']
