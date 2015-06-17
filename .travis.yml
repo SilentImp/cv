@@ -1,0 +1,7 @@
+branches:
+  only:
+    - master
+before_script:
+  - git config --global user.email "thesilentimp@gmail.com"
+  - git config --global user.name "Anton Nemtsev"
+  
