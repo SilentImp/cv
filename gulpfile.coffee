@@ -1,6 +1,5 @@
 gulp        = require 'gulp'
 order       = require 'gulp-order'
-imagemin    = require 'gulp-imagemin'
 prefix      = require 'gulp-autoprefixer'
 concat      = require 'gulp-concat'
 uglify      = require 'gulp-uglify'

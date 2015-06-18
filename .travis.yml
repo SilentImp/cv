@@ -7,7 +7,7 @@ before_script:
   - git config --global user.email "thesilentimp@gmail.com"
   - git config --global user.name "Anton Nemtsev"
   - git remote rm origin
-  - git remote add origin https://silentimp:${GH_TOKEN}github.com/SilentImp/cv.git
+  - git remote add origin https://silentimp:${GH_TOKEN}@github.com/SilentImp/cv.git
   - npm i -g coffee-script
 script:
   - gulp build
