@@ -9,14 +9,14 @@ coffee      = require 'gulp-coffee'
 jade        = require 'gulp-jade'
 minify_html = require 'gulp-minify-html'
 minify_css  = require 'gulp-minify-css'
-buildbranch = require 'buildbranch'
+deploy      = require 'gulp-gh-pages'
 
 development_path =
   images:     './development/images/**'
   coffee:     './development/coffee/**'
   stylus:     './development/stylus/**'
   jade:       './development/**.jade'
-  production: './production/**'
+  build:      './build/**/*'
   copy:       ['./development/{pdf,svg,js}/**', './development/CNAME']
 
 production_path =
@@ -28,7 +28,7 @@ production_path =
 
 
 gulp.task('stylus', ()->
-    gulp.src(development_path.stylus)
+    return gulp.src(development_path.stylus)
     .pipe(stylus(
       set:['compress']
     ))
@@ -47,11 +47,11 @@ gulp.task('stylus', ()->
 
 
 gulp.task('copy', ()->
-  gulp.src(development_path.copy).pipe(gulp.dest(production_path.copy))
+  return gulp.src(development_path.copy).pipe(gulp.dest(production_path.copy))
 )
 
 gulp.task('coffee', ()->
-  gulp.src(development_path.coffee)
+  return gulp.src(development_path.coffee)
     .pipe(coffee(
       bare: true
     ))
@@ -60,7 +60,7 @@ gulp.task('coffee', ()->
 )
 
 gulp.task('jade', ()->
-  gulp.src(development_path.jade)
+  return gulp.src(development_path.jade)
     .pipe(jade())
     .pipe(minify_html(
       empty: true
@@ -69,17 +69,18 @@ gulp.task('jade', ()->
     .pipe gulp.dest(production_path.html)
 )
 
-gulp.task('build', ['jade', 'stylus', 'coffee'], ()->
+gulp.task('build', ['copy', 'jade', 'stylus', 'coffee'], ()->
 
 
 )
 
-gulp.task('deploy',  (done)->
+gulp.task('deploy',  ()->
   console.log 'deploying'
-  buildbranch(
-      folder: 'build'
-    , done
-  )
+  return gulp.src(development_path.build)
+    .pipe(deploy().on('error', ()->
+      console.log 'error', arguments
+      ))
+
 )
 
 gulp.task('watch', ()->

@@ -5,21 +5,20 @@
   "main": "./production/cv.html",
   "dependencies": {
     "buildbranch": "0.0.3",
-    "coffee-script": "^1.9.3",
-    "gulp": "~3.6.0",
-    "gulp-gh-pages": "^0.5.2",
     "coffee-script": "~1.7.1",
-    "gulp-order": "~1.0.6",
-    "gulp-imagemin": "~0.1.5",
+    "gulp": "~3.6.0",
     "gulp-autoprefixer": "0.0.6",
-    "gulp-concat": "~2.2.0",
-    "gulp-uglify": "~0.2.1",
-    "gulp-stylus": "~0.1.0",
+    "gulp-build-branch": "^0.1.4",
     "gulp-coffee": "~1.4.1",
+    "gulp-concat": "~2.2.0",
+    "gulp-gh-pages": "~0.3.1",
+    "gulp-imagemin": "~0.1.5",
     "gulp-jade": "~0.4.2",
-    "gulp-minify-html": "~0.1.1",
     "gulp-minify-css": "~0.3.0",
-    "gulp-gh-pages": "~0.3.1"
+    "gulp-minify-html": "~0.1.1",
+    "gulp-order": "~1.0.6",
+    "gulp-stylus": "~0.1.0",
+    "gulp-uglify": "~0.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
