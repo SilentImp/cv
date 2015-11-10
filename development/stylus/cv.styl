@@ -6,7 +6,7 @@
   left 0
   background-color #FFF
   background-position 50% 50%
-  background-repeat no-repeat  
+  background-repeat no-repeat
   background-image url('../svg/clock.svg')
   background-size 40px
   z-index 32000
@@ -15,13 +15,13 @@
   &.loaded
     pointer-events none
     opacity 0
-    
+
 html.no-svg .loading
   background-image url('../svg/clock.png')
-  
+
 
 body>header
-  padding 5.236rem 3.236rem 0 
+  padding 5.236rem 3.236rem 0
   max-width 50rem
   margin auto
   position relative
@@ -29,13 +29,13 @@ body>header
   h1
     font-size 4.8rem
     display inline-block
-    
-html[lang^="ru"] 
+
+html[lang^="ru"]
   .pdf a[lang^="en"],
   .language a[lang^="ru"]
     display none
-  
-html[lang^="en"] 
+
+html[lang^="en"]
   .pdf a[lang^="ru"],
   .language a[lang^="en"]
     display none
@@ -47,7 +47,7 @@ html[lang^="en"]
   right 0
   text-align center
   a
-    font-size .85rem 
+    font-size .85rem
     display inline-block
     border 1px solid #e8e8e8
     padding .25rem .5rem
@@ -55,14 +55,14 @@ html[lang^="en"]
     text-decoration none
     text-transform uppercase
     &:hover
-      background-color #e8e8e8 
-  
+      background-color #e8e8e8
+
 
 .language
   display inline-block
   vertical-align middle
   position relative
-  
+
   a
     position absolute
     bottom -1.5rem
@@ -77,7 +77,7 @@ html[lang^="en"]
     border-radius 100%
     text-align center
     background-color #e8e8e8
-    &:hover 
+    &:hover
       background-color darken(#e8e8e8, 10%)
       &:after
         border-color darken(#e8e8e8, 10%) transparent transparent
@@ -89,25 +89,25 @@ html[lang^="en"]
       position absolute
       top 100%
       left 50%
-      margin -.1rem 0 0 -.4rem 
+      margin -.1rem 0 0 -.4rem
       line-height 0
       overflow hidden
       border-style solid
       border-color #e8e8e8 transparent transparent
-      border-width .85rem .4rem 0  
+      border-width .85rem .4rem 0
       transform-origin 50% -2.9rem
       transform rotate(50deg)
-      
+
 
 section
   max-width 50rem
   margin 3.236rem auto 6.472rem
   padding 0 3.236rem
-  
+
   header
     box-sizing border-box
     vertical-align middle
-    
+
   .wrapper
     margin auto
     box-sizing border-box
@@ -115,7 +115,7 @@ section
 
   table
     width 100%
-    font-size 1rem 
+    font-size 1rem
     th,
     td
       box-sizing border-box
@@ -127,16 +127,16 @@ section
     td
       p
         margin 0
-      p+p 
+      p+p
         margin 1.618rem 0 0
     th
       text-transform uppercase
       padding-bottom 3.236rem
     tr:last-child td
       border-bottom-style none
-     
+
   &.examples
-    
+
     font-size 0
     line-height 0
     &:after
@@ -147,7 +147,7 @@ section
       line-height 0
       font-size 0
       overflow hidden
-      
+
     .slides
       article
         float left
@@ -180,7 +180,7 @@ section
           bottom 0
           right 0
           z-index 1
-        &:hover 
+        &:hover
           figcaption
             opacity 1
             transform scale(1)
@@ -195,7 +195,7 @@ section
           line-height 3rem
           text-align center
           background-color #FFF
-          color #000  
+          color #000
           z-index 3
           .open:after
             content "+"
@@ -206,7 +206,7 @@ section
           overflow hidden
           text-overflow ellipsis
           transition transform .25s, opacity .25s
-          background-color rgba(255,255,255,1) 
+          background-color rgba(255,255,255,1)
           padding 0.5rem
           text-align left
           font-size 0.85rem
@@ -221,6 +221,7 @@ section
     table
       td:first-child
         width 33%
+        padding-left 0
         h2
           color #333
           margin 0
@@ -237,11 +238,11 @@ section
           line-height 2rem
           margin 0
           font-size 1.4rem
-          
+
   &.skills
     table
       tbody+thead th
-        border-top 1px solid #e8e8e8 
+        border-top 1px solid #e8e8e8
         padding-top 1.618rem
       th,
       td
@@ -256,21 +257,21 @@ section
         width 25%
         padding-left 0
       th
-        font-size 1rem 
-        padding 0.4045rem 1.618rem 1.618rem 
+        font-size 1rem
+        padding 0.4045rem 1.618rem 1.618rem
         color #666
       th:last-child,
       td:last-child
-        border-right-style none 
+        border-right-style none
       tr:last-child td
         padding-bottom 1.618rem
-        
+
 
 @media (max-width: 55rem)
   body>header h1
     font-size 4rem
     white-space normal
-    
+
 @media (max-width: 45rem)
   body>header h1
     font-size 3rem
@@ -285,20 +286,20 @@ section
         padding 0
         border-right-style none
 
-    
+
 @media (max-width: 37rem)
   body>header h1
     font-size 2rem
     white-space normal
-  html, 
+  html,
   html body
     font-size 14px
-    
+
 @media (max-width: 25rem)
   body>header h1
     font-size 1.7rem
     white-space normal
-  html, 
+  html,
   html body
     font-size 12px
 
@@ -311,19 +312,19 @@ section
   nav.language,
   nav.pdf
     display none
-    
+
   img
     max-height 100%
-  
-  html, 
+
+  html,
   html body
     font-size 12px !important
     color #000
     background #fff
-  
+
   a
     text-decoration none
-    
+
   section
     max-width none
     page-break-inside avoid
@@ -333,17 +334,17 @@ section
     td,
     th
       page-break-inside avoid
-        
-      
+
+
   a[href^=htt]:after
     content " <" attr(href) "> "
-    
+
   a.link-inside[href^=htt]:after
     display none
-    
+
   body>header
     padding-top 0
-        
+
     h1
       padding 0
       font-size 3rem
@@ -353,10 +354,9 @@ section
         right 0
         top 0
 
-    
+
   img
     page-break-inside avoid
-    
+
   @page
     margin 1cm
-    
