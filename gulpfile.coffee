@@ -16,7 +16,7 @@ development_path =
   stylus:     './development/stylus/**'
   jade:       './development/**.jade'
   build:      './build/**/*'
-  copy:       ['./development/{pdf,svg,js}/**', './development/CNAME']
+  copy:       ['./development/{pdf,svg,js}/**/*', './development/CNAME']
 
 production_path =
   images: './build/images/'
