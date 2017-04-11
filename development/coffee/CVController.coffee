@@ -19,7 +19,7 @@ define ['cookieController','template_polyfill','l20n'], (cookieController)->
       @lang = @cookie.getItem 'lang'
       if @lang is null
         @timer = window.setTimeout @deleteLoadingBlock, 1000
-        require ['http://www.telize.com/geoip?callback=document.cv.ip2Country']
+        require ['http://freegeoip.net/json/?callback=document.cv.ip2Country']
       else
         document.l10n.once @readyToLocalize
 
