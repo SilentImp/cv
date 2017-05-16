@@ -20,7 +20,7 @@
     </tr>
     <tr>
       <td>Status:</td>
-      <td>Unavailable</td>
+      <td>Unavailable for hire</td>
     </tr>  
   </tbody>
 </table>
