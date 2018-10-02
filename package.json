@@ -5,20 +5,20 @@
   "main": "./production/cv.html",
   "dependencies": {
     "coffee-script": "~1.7.1",
-    "gulp": "~3.6.0",
+    "gulp": "3.9.1",
     "gulp-autoprefixer": "0.0.6",
     "gulp-coffee": "~1.4.1",
     "gulp-concat": "~2.2.0",
-    "gulp-gh-pages": "~0.3.1",
-    "gulp-jade": "~0.4.2",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-jade": "^1.1.0",
     "gulp-minify-css": "~0.3.0",
     "gulp-minify-html": "~0.1.1",
     "gulp-order": "~1.0.6",
-    "gulp-stylus": "~0.1.0",
-    "gulp-uglify": "~0.2.1"
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp build"
   },
   "repository": {
     "type": "git",
