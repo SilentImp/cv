@@ -16,7 +16,7 @@
 <lang_value "Russian, Ukrainian, English">
 
 <status_title "Status:">
-<status_value "Unavailable for hire">
+<status_value "Available for hire">
 
 <fact_1 "Freelance developer from 2000 till now">
 <fact_2 "Full-stack developer">
@@ -66,6 +66,10 @@
 
 <experience_9 """
   Work at <a>VAIMO</a> on projects <a>BAUHAUS Sweden</a>, <a>Jack Daniel's UK</a>, <a>Jack Daniel's DE</a>, <a>Brown-Forman Australia</a>, <a>ONTIME</a> etc.
+""">
+
+<experience_10 """
+  Work at <a>Template Monster</a> as lead frontend-developer. I have lead three teams with eight frontend developers located in Lviv, Nikolaev and Kyiv.
 """>
 
 <skills "Skills">
