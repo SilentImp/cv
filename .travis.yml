@@ -1,23 +1,23 @@
 sudo: false
 language: node_js
 node_js:
-  - "8"
+- '8'
 branches:
   only:
   - master
 before_script:
-  - git config --global user.email "thesilentimp@gmail.com"
-  - git config --global user.name "Anton Nemtsev"
-  - git remote rm origin
-  - git remote add origin https://silentimp:${GH_TOKEN}@github.com/SilentImp/cv.git
-  - npm i -g coffee-script@1.7
+- git config --global user.email "thesilentimp@gmail.com"
+- git config --global user.name "Anton Nemtsev"
+- git remote rm origin
+- git remote add origin https://silentimp:${GH_TOKEN}@github.com/SilentImp/cv.git
+- npm i -g coffee-script@1.7
 script:
-  - npm start
-  - cd node_modules/gulp-gh-pages/
-  - npm install --save gift@0.10.2
-  - cd ../../
+- npm start
+- cd node_modules/gulp-gh-pages/
+- npm install --save gift@0.10.2
+- cd ../../
 after_script:
-  - npm run deploy
+- npm run deploy
 env:
   global:
-    secure: ps4m/WDxev42YN7b+rA6MM9N/iie8rW6+cDkPxjexEIBSNlRrsaNHXCFbDKx4kIYueDR/YiFoAa3ok5wsLfgAfVuEoLTLotfyJ2q0c5GE0Io2qieGqLUSwr+oh2YDJC87I6cLTIGCQNfI85mNUFlcNorJQoHjO2ze8DHQpTNWEfUNqK1Q+oWoJjC2QO2xd86vRCtR1eHSfLajN0xRtKoIs+HO4O3qy92iK+JgNDFfrNJGnhwB2BTL+KvShS0/jn4RobVoUpW4ttIqpRgfhqtLXAPuSvj737z00YAmTtdxYSNVgv42/jEjFvDwQ5SGd7mRfPPhWMWkg5ul/sk7B27ACLNb/3YwfqsreFi5akWKEMrxvORyNT+BYCAAv5z+vXeBZL/qgOkw9Cgxqqj9w31CsindWHRmIh9E50yMhM3vk1XbQob5AT+xvWgWl0E7Csf3uG3mOPTCZvDdNT7gVDTnBvoXFS0i/miicWCobyRrwDzjWiOSsj4ZLECxsjo6Ls3Ki8ykcmzLKED0AzdIXvjIUdJ873unhWuG4VInEtpWWR8MWNcOgX+VZ6GMeDuQPX5fFjt/MpMwfQPJI8El6IVhzvGuXOJ0gYv9KN8F4tC+PTgfpk0S9UXFx3QTg+0gXANWyZIqqZEBlxYgGcLyBJNgNhvLAuifBZj5B6vYNNfWpg=
+    secure: rW6Sz7EEg+V2sl1qlvf2QDpTea1LO+TD79Ha5p1UPtW9TLHHhlrBMyK0+LPp/DZIekGTnwneMGFd0xJgj4BQm4DdS/GwBax17/m15Ct66MaUdg209ebUOYtqqTuX140RMEDy3EGU1n/3cd68yKnE2RlTXxS3QJvTJmE10lpsoUkyGAVShRDyoqvC672hiadd3ZA5GSNddRYVemxBf7h3jYDpJTD8U5C9NLZu/ldgF6SJaqD4qFn6WizLiPSgcInziq6RX1MoEEU8C5nttkXAvXKPIKQaJPjgfIVNROFxjsLRCQPAiyP6WQQ928DuugQfh+wC9gCKh9yE/YpkwJfK4hDm3ZLkwcPTOBkKmMCF995n08wzdqamOXCYqcvJVnIRbGx8Xhi2nrD0mQR0UzcyrHf2w5jgocuHqIyAN5fN7dcgmrozUMG+ZbQhco/uYNioeqjzLuq+5OVrsUjCcgbeET+x2x7ZHE1NQ0aalYP/1BrAaldQhQIQzVII0m8STetnejQmUkaQkUMoAlwb7js21yTQHAjPF5XOi4vfgG99dUh5MfKBfbxOEHA1i1mvvhUsF+Vuo4Z6+z6iG2e25OeqMqNaDGJQPqpNDoXiexLz1rYAw2tBGqJtf7B/z8E9TMP7E8QcAK8jBKuMABT1Sbp+at8XO8YYgiZv1+0WuChiz6I=

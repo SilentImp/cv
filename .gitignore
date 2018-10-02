@@ -3,6 +3,7 @@ gh-cache
 ^\.*
 !.gitignore
 !.bowerrc
+.publish
 
 master
 .DS_Store

@@ -6,8 +6,8 @@ uglify      = require 'gulp-uglify'
 stylus      = require 'gulp-stylus'
 coffee      = require 'gulp-coffee'
 jade        = require 'gulp-jade'
-minify_html = require 'gulp-minify-html'
-minify_css  = require 'gulp-minify-css'
+minify_html = require 'gulp-htmlmin'
+minify_css  = require 'gulp-clean-css'
 deploy      = require 'gulp-gh-pages'
 
 development_path =
