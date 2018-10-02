@@ -26,7 +26,7 @@
     "coffee-script": "1.7.1",
     "gift": "^0.10.2",
     "gulp": "3.9.1",
-    "gulp-autoprefixer": "0.0.6",
+    "gulp-autoprefixer": "6.0.0",
     "gulp-coffee": "1.4.1",
     "gulp-concat": "2.2.0",
     "gulp-gh-pages": "^0.5.4",

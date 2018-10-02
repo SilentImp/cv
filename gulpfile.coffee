@@ -1,6 +1,6 @@
 gulp        = require 'gulp'
 order       = require 'gulp-order'
-prefix      = require 'gulp-autoprefixer'
+autoprefixer = require 'gulp-autoprefixer'
 concat      = require 'gulp-concat'
 uglify      = require 'gulp-uglify'
 stylus      = require 'gulp-stylus'
@@ -31,7 +31,10 @@ gulp.task('stylus', ()->
     .pipe(stylus(
       set:['compress']
     ))
-    .pipe(prefix())
+    .pipe(autoprefixer({
+      browsers: ['last 2 versions'],
+      cascade: false
+    }))
     .pipe(order([
       'typography.styl'
       'reset.css'
