@@ -123,6 +123,8 @@
 <time_31 "Kyiv, February 8, 2017">
 <time_32 "Kyiv, March 26, 2017">
 <time_33 "Kharkiv, April 22, 2017">
+<time_34 "Moscow, November 18, 2018">
+<time_35 "Kyiv, February 17, 2018">
 
 <talk_title_1 "HTML5 and CSS3">
 <talk_title_2 "Overview of the new JavaScript API">
@@ -141,6 +143,8 @@
 <talk_title_25 "ES6 Intro">
 <talk_title_26 "JavaScript Types">
 <talk_title_27 "Holy Grail">
+<talk_title_28 "Make checkout great again">
+<talk_title_29 "Code Style & Violence">
 
 <talk_abstract_1 "Evolution of webstandards">
 <talk_abstract_2 "HTML5 specification and other W3C specification drafts">
@@ -158,3 +162,5 @@
 <talk_abstract_24 "Talk about ECMA-262 life cycle, how to use new language features before browser implementation and how to use ESX in Magento 1 and 2.">
 <talk_abstract_25 "Talk about JavaScript Types and type cast principles.">
 <talk_abstract_26 "Let's talk about layouts. From the start.">
+<talk_abstract_27 "How to implement and control codestyle best practices in your team.">
+<talk_abstract_28 "Make checkout great again.">
