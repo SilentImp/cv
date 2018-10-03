@@ -82,7 +82,6 @@
 <bd "Database">
 <serverside "Backend">
 
-
 <talks "Speaking">
 
 <video "Video">
@@ -125,6 +124,10 @@
 <time_33 "Kharkiv, April 22, 2017">
 <time_34 "Moscow, November 18, 2018">
 <time_35 "Kyiv, February 17, 2018">
+<time_36 "Kharkiv, March 15, 2018">
+<time_37 "Kyiv, March 18, 2018">
+<time_38 "Kyiv, April 7, 2018">
+<time_39 "Kyiv, June 23, 2018">
 
 <talk_title_1 "HTML5 and CSS3">
 <talk_title_2 "Overview of the new JavaScript API">
