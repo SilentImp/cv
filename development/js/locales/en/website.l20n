@@ -18,12 +18,13 @@
 <status_title "Status:">
 <status_value "Available for hire">
 
-<fact_1 "Freelance developer from 2000 till now">
+<fact_1 "Freelance developer from 2000 till 2016">
 <fact_2 "Full-stack developer">
 <fact_3 "Representative of <a>Web Standards</a> community in Ukraine">
 <fact_4 "Founder and chief-editor of <a>Frontender Magazine</a>">
 <fact_5 "Speaker at local and international web development conferences">
 <fact_6 "UA Web Challenge expert">
+<fact_7 "Magical talking bear prostitute">
 
 <contacts "Contacts">
 
@@ -129,7 +130,8 @@
 <time_36 "Kharkiv, March 15, 2018">
 <time_37 "Kyiv, March 18, 2018">
 <time_38 "Kyiv, April 7, 2018">
-<time_39 "Kyiv, June 23, 2018">
+<time_39 "Chernivtsi, June 23, 2018">
+<time_40 "Chernivtsi, June 10, 2017">
 
 <talk_title_1 "HTML5 and CSS3">
 <talk_title_2 "Overview of the new JavaScript API">
