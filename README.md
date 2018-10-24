@@ -20,13 +20,13 @@
     </tr>
     <tr>
       <td>Status:</td>
-      <td>Unavailable for hire</td>
+      <td>Available for hire</td>
     </tr>  
   </tbody>
 </table>
 
 
-* Freelance developer from 2000 till now
+* Freelance developer from 2000 till 2016
 * Full-stack developer
 * Representative of [Web Standards][8] community in Ukraine
 * Founder and chief-editor of [Frontender Magazine][9]
