@@ -3,7 +3,7 @@ define ['cookieController','template_polyfill','l20n'], (cookieController)->
   class CVController
     constructor: ->
       @pointer_event = 'click'
-      
+
 
       @cookie = cookieController
       @loading = document.querySelector "body>.loading"
@@ -19,9 +19,11 @@ define ['cookieController','template_polyfill','l20n'], (cookieController)->
       @lang = @cookie.getItem 'lang'
       if @lang is null
         @timer = window.setTimeout @deleteLoadingBlock, 1000
-        require ['http://freegeoip.net/json/?callback=document.cv.ip2Country']
+        require ['https://json.geoiplookup.io/?callback=callbackRunner']
       else
         document.l10n.once @readyToLocalize
+
+      window.callbackRunner = @ip2Country;
 
 
     ip2Country: (obj)=>
@@ -54,6 +56,5 @@ define ['cookieController','template_polyfill','l20n'], (cookieController)->
 
     deleteLoadingBlock: =>
       @loading.parentNode.removeChild @loading
-
 
   return CVController
