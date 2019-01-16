@@ -16,7 +16,7 @@
 <lang_value "Russian, Ukrainian, English">
 
 <status_title "Status:">
-<status_value "Not available for hire">
+<status_value "Available for hire">
 
 <fact_1 "Freelance developer from 2000 till 2016">
 <fact_2 "Full-stack developer">
@@ -71,6 +71,10 @@
 
 <experience_10 """
   Work at <a>Template Monster</a> as lead frontend-developer. I have lead three teams with eight frontend developers located in Lviv, Nikolaev and Kyiv.
+""">
+
+<experience_11 """
+  Work at <a>Werkspot</a> as a frontend-developer. Amoung other things developed translations system, form management system, inroduce grid layout.
 """>
 
 <skills "Skills">
