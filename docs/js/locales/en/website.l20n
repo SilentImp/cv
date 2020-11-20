@@ -1,0 +1,177 @@
+<html
+  lang: "en">
+
+<summary "Abstract">
+
+<name_title "Name:">
+<name_value "Anton Nemtsev">
+
+<bdate_title "Date of Birth:">
+<bdate_value "May 21, 1983">
+
+<citizenship_title "Citizenship:">
+<citizenship_value "Ukraine">
+
+<lang_title "Languages:">
+<lang_value "Russian, Ukrainian, English">
+
+<status_title "Status:">
+<status_value "Available for hire">
+
+<fact_1 "Freelance developer from 2000 till 2016">
+<fact_2 "Full-stack developer">
+<fact_3 "Representative of <a>Web Standards</a> community in Ukraine">
+<fact_4 "Founder and chief-editor of <a>Frontender Magazine</a>">
+<fact_5 "Speaker at local and international web development conferences">
+<fact_6 "UA Web Challenge expert">
+<fact_7 "Magical talking bear prostitute">
+
+<contacts "Contacts">
+
+<tel "Phone (UA):">
+<web "Site:">
+
+<education "Education">
+
+<place_1 "Physical &amp; Mathematical School">
+<place_2 "National Technical University of Ukraine 'Kyiv Polytechnic Institute’, Post-Graduate Study">
+
+<grade_1 "Specialist degree in development of electronic devices">
+<grade_2 "Master's degree in computer science">
+
+<experience "Experience">
+
+<experience_1 """
+  <p>Projects development for advertising agencies R.A.M. and <a>Paradigm Consulting Group</a></p>
+  <p>Working with such brands as Pall Mall, Kent, Camel, Lays, Kinder, DreamWorks, MTv, Indesit, Samsung etc.</p>
+  <p>Providing services as frontend-developer, flash-developer (drawing, animaton, ActionScript), designer.</p>
+""">
+
+<experience_2 "Development of <a>http://www.pokeroff.ru/</a>">
+
+<experience_3 "Working with <a>Evil Martians</a> studio. Among projects are <a>http://groupon.ru/</a> and <a>http://i-lift.tv/</a>">
+
+<experience_4 "Development of <a>http://zn.ua/</a> and http://znaki.fm/">
+
+<experience_5 "Development of Giftofoni">
+
+<experience_6 "Development of Focal Point for Parallels Software">
+
+<experience_7 """
+  Work as frontend-developer in projects of <a>Aligned Code</a>, Binary Garage, Yoke Labs, <a>CB Territory</a>.
+""">
+
+<experience_8 """
+  Work as frontend-developer in projects of <a>Areto Development</a>, <a>Vacay Kit</a>, <a>3 Way Talk</a>, Yoke Labs.
+""">
+
+<experience_9 """
+  Work at <a>VAIMO</a> on projects <a>BAUHAUS Sweden</a>, <a>Jack Daniel's UK</a>, <a>Jack Daniel's DE</a>, <a>Brown-Forman Australia</a>, <a>ONTIME</a> etc.
+""">
+
+<experience_10 """
+  Work at <a>Template Monster</a> as lead frontend-developer. I have lead three teams with eight frontend developers located in Lviv, Nikolaev and Kyiv.
+""">
+
+<experience_11 """
+  Work at <a>Werkspot</a> as a frontend-developer. Amoung other things developed translations system, form management system, inroduce grid layout.
+""">
+
+<skills "Skills">
+
+<markup "Markup">
+<scripts "Scripting">
+<styles "Styles">
+<automatization "Automatization">
+<additional "Additional">
+<bd "Database">
+<serverside "Backend">
+
+<xai "National Aerospace University – Kharkiv Aviation Institute">
+
+<talks "Speaking">
+
+<video "Video">
+<repo "GitHub">
+<slides "Presentation">
+<slides_online "Presentation online">
+
+<time_1 "Riga, May 22, 2010">
+<time_2 "Kyiv, September 18, 2010">
+<time_3 "Kyiv, October 22, 2011">
+<time_4 "Minsk, October 29, 2011">
+<time_5 "Moscow, December 13, 2011">
+<time_6 "Moscow, April 2, 2012">
+<time_7 "St. Petersburg, June 23, 2012">
+<time_8 "Amsterdam, October 3, 2012">
+<time_9 "Kyiv, October 13, 2012">
+<time_10 "Kharkiv, December 15, 2012">
+<time_11 "Moscow, November 24, 2012">
+<time_12 "Moscow, April 23, 2013">
+<time_13 "Yekaterinburg, May 24, 2013">
+<time_14 "Kharkiv, June 22, 2013">
+<time_15 "Kazantip, August 22, 2013">
+<time_16 "Minsk, September 19, 2013">
+<time_17 "Minsk, September 19, 2013">
+<time_18 "Kyiv, October 26, 2013">
+<time_19 "Ekaterinburg, March 14, 2014">
+<time_20 "Ekaterinburg, March 14, 2014">
+<time_21 "Moscow, April 14, 2014">
+<time_22 "Riga, May 24, 2014">
+<time_23 "Minsk, August 24, 2014">
+<time_24 "Kyiv, May 24, 2015">
+<time_25 "Minsk, October 31, 2015">
+<time_26 "Kyiv, November 28, 2015">
+<time_27 "Stockholm, September 8, 2016">
+<time_28 "Kharkiv, September 17, 2016">
+<time_29 "Minsk, October 29, 2016">
+<time_30 "Kyiv, November 26, 2016">
+<time_31 "Kyiv, February 8, 2017">
+<time_32 "Kyiv, March 26, 2017">
+<time_33 "Kharkiv, April 22, 2017">
+<time_34 "Moscow, November 18, 2018">
+<time_35 "Kyiv, February 17, 2018">
+<time_36 "Kharkiv, March 15, 2018">
+<time_37 "Kyiv, March 18, 2018">
+<time_38 "Kyiv, April 7, 2018">
+<time_39 "Chernivtsi, June 23, 2018">
+<time_40 "Chernivtsi, June 10, 2017">
+
+<talk_title_1 "HTML5 and CSS3">
+<talk_title_2 "Overview of the new JavaScript API">
+<talk_title_5 "Editing Content in the Browser">
+<talk_title_6 "On the Edge">
+<talk_title_8 "Some Funy CSS Tricks You May Use in Lazy Game Dev">
+<talk_title_11 "JavaScript Patterns">
+<talk_title_16 "Frontender Magazine">
+<talk_title_18 "Lost Specifications">
+<talk_title_19 "One Year of Frontender Magazine">
+<talk_title_20 "Localization and Internationalization">
+<talk_title_21 "WebGL and Lazy Game Dev">
+<talk_title_22 "Offline first">
+<talk_title_23 "Lightning talk “You don't know CSS”">
+<talk_title_24 "You don't know CSS!">
+<talk_title_25 "ES6 Intro">
+<talk_title_26 "JavaScript Types">
+<talk_title_27 "Holy Grail">
+<talk_title_28 "Make checkout great again">
+<talk_title_29 "Code Style & Violence">
+
+<talk_abstract_1 "Evolution of webstandards">
+<talk_abstract_2 "HTML5 specification and other W3C specification drafts">
+<talk_abstract_5 "How it should be, how it is and why do we need it anyway">
+<talk_abstract_6 "3D and 2D-animation and emotions in the web with CSS">
+<talk_abstract_11 "What is it, why to use them and common patterns">
+<talk_abstract_12 "Lazy development of casual games with JavaScript and DOM">
+<talk_abstract_16 "About magazine, why it was founded and where frontend developers come from">
+<talk_abstract_18 "JavaScript API we forget or even don't know about">
+<talk_abstract_19 "Magazine goals, history and what we had achieved for the last year">
+<talk_abstract_20 "Overview of international specifications and localization process with i18next and l20n">
+<talk_abstract_21 "Lazy game development with use WebGl and Three.js">
+<talk_abstract_22 "What is offline first and how it may be used for your profit">
+<talk_abstract_23 "In this talk we will dig into lifecycle of CSS specification development, overview some interesting drafts and find out why you should read drafts.">
+<talk_abstract_24 "Talk about ECMA-262 life cycle, how to use new language features before browser implementation and how to use ESX in Magento 1 and 2.">
+<talk_abstract_25 "Talk about JavaScript Types and type cast principles.">
+<talk_abstract_26 "Let's talk about layouts. From the start.">
+<talk_abstract_27 "How to implement and control codestyle best practices in your team.">
+<talk_abstract_28 "Internet acquiring? What are you talking about?!">
