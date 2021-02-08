@@ -66,15 +66,15 @@
 """>
 
 <experience_9 """
-  Work at <a>VAIMO</a> on projects <a>BAUHAUS Sweden</a>, <a>Jack Daniel's UK</a>, <a>Jack Daniel's DE</a>, <a>Brown-Forman Australia</a>, <a>ONTIME</a> etc.
+  Work at <a>VAIMO</a> on projects <a>BAUHAUS Sweden</a>, <a>Jack Daniel's UK</a>, <a>Jack Daniel's DE</a>, <a>Brown-Forman Australia</a>, <a>ONTIME</a> etc. Help building education processes inside the company. Partipate in the introducing es6 to the company stack. 
 """>
 
 <experience_10 """
-  Work at <a>Template Monster</a> as lead frontend-developer. I have lead three teams with eight frontend developers located in Lviv, Nikolaev and Kyiv.
+  Work at <a>Template Monster</a> as lead frontend-developer. I have lead three teams with eight frontend developers located in Lviv, Mykolaiv and Kyiv. Participate in hiring people for these teams and mentoring. Take part in the creation of project architecture, including the frontend part of the project. We have transformed the project from the shop that sells products created in the Template Monster to the platform that allows anyone to sell media content. The platform was created ground up, with the new design system. Technical part included multiple REST microservices and was built with React with unique SSR solution. Huge work was done on performance optimization, including http2 push and use of the client-side cache. 
 """>
 
 <experience_11 """
-  Work at <a>Werkspot</a> as a frontend-developer. Amoung other things developed translations system, form management system, inroduce grid layout.
+  Work at <a>Werkspot</a> as a frontend-developer. Help build a new front-end stack based on React and Next.js framework and continue migrating an application to this stack. Among other things developed the translations system, form management system, introduce grid layout, and participate in creating business-critical user flows. Help with hiring people. Work on company branding by representing the company on conferences and writing articles.
 """>
 
 <skills "Skills">
