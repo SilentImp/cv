@@ -5,7 +5,8 @@
   "main": "./production/cv.html",
   "scripts": {
     "start": "gulp build",
-    "deploy": "gulp deploy"
+    "deploy": "gulp deploy",
+    "jade": "gulp jade"
   },
   "repository": {
     "type": "git",

@@ -77,6 +77,10 @@
   Work at <a>Werkspot</a> as a frontend-developer. Help build a new front-end stack based on React and Next.js framework and continue migrating an application to this stack. Among other things developed the translations system, form management system, introduce grid layout, and participate in creating business-critical user flows. Help with hiring people. Work on company branding by representing the company on conferences and writing articles.
 """>
 
+<experience_12 """
+  Work at <a>Amazon</a> as a Frontend Engineer. I was developing RDS Ops Console, which is a part of AWS. This console is only available for inner usage and needed to solve problems, related to the database instances of the AWS clients and related infrastructure. I have created frontend roadmap, implement code style control and build unit testing system with coverage control, add feedback mechanisms for the console consumers and many more.
+""">
+
 <skills "Skills">
 
 <markup "Markup">
