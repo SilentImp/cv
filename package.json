@@ -36,6 +36,6 @@
     "gulp-order": "1.0.6",
     "gulp-stylus": "2.7.0",
     "gulp-uglify": "3.0.1",
-    "minimatch": "3.0.4"
+    "minimatch": "3.0.5"
   }
 }
