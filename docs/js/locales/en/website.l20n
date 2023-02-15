@@ -78,7 +78,7 @@
 """>
 
 <experience_12 """
-  Work at <a>Amazon</a> as a Frontend Engineer. I was developing RDS Ops Console, which is a part of AWS. This console is only available for inner usage and needed to solve problems, related to the database instances of the AWS clients and related infrastructure. I have created frontend roadmap, implement code style control and build unit testing system with coverage control, add feedback mechanisms for the console consumers and many more.
+  Work at Amazon AWS. RDS Ops Console is an internal Rails web application which allows engineers to manage the RDS service and its resources. I have created frontend roadmap, implement code style control and build unit testing system with coverage control, add feedback mechanisms for the console consumers, cover console with canaries and many more.
 """>
 
 <skills "Skills">
