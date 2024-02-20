@@ -81,6 +81,10 @@
   Work at Amazon AWS. RDS Ops Console is an internal Rails web application which allows engineers to manage the RDS service and its resources. I have created frontend roadmap, implement code style control and build unit testing system with coverage control, add feedback mechanisms for the console consumers, cover console with canaries and many more.
 """>
 
+<experience_13 """
+  Work at i3d.net as a Staff Engineer. Great opportunity to build Amazon AWS competitor almost ground up.
+""">
+
 <skills "Skills">
 
 <markup "Markup">
