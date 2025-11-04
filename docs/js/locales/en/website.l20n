@@ -24,11 +24,12 @@
 <fact_4 "Founder and chief-editor of <a>Frontender Magazine</a>">
 <fact_5 "Speaker at local and international web development conferences">
 <fact_6 "UA Web Challenge expert">
-<fact_7 "Magical talking bear prostitute">
+<fact_7 "JS Nation org. commity member">
 
 <contacts "Contacts">
 
-<tel "Phone (UA):">
+<tel_ua "Phone (UA):">
+<tel_nl "Phone (NL):">
 <web "Site:">
 
 <education "Education">
@@ -84,6 +85,15 @@
 <experience_13 """
   Work at i3d.net as a Staff Engineer. Great opportunity to build Amazon AWS competitor almost ground up.
 """>
+
+<experience_14 """
+  Work at Datasnipper as a Software Engineer.
+  I did create frontent guild in the company to ensure alignment between the team and consistent approach to problem solving.
+  Lead creation of frontend architecture.
+  Built deployment system for frontend, including library of reusable GitHub actions and workflows, Rulsets and Terraform configurations.
+  Create learning opportunities for the collegues and put efford to build knowledge sharing culture.
+""">
+
 
 <skills "Skills">
 

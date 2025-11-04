@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/SilentImp/cv",
   "devDependencies": {
+    "coffee-script": "^1.12.7",
     "coffeescript": "2.3.2",
+    "graceful-fs": "^4.2.10",
     "gulp": "3.9.1",
     "gulp-autoprefixer": "6.0.0",
     "gulp-clean-css": "3.10.0",
@@ -37,5 +39,6 @@
     "gulp-stylus": "2.7.0",
     "gulp-uglify": "3.0.1",
     "minimatch": "3.0.4"
-  }
+  },
+  "dependencies": {}
 }

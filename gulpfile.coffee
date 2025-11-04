@@ -15,15 +15,15 @@ development_path =
   coffee:     './development/coffee/**'
   stylus:     './development/stylus/**'
   jade:       './development/**.jade'
-  build:      './build/**/*'
+  build:      './docs/**/*'
   copy:       ['./development/{pdf,svg,js}/**/*', './development/CNAME']
 
 production_path =
-  images: './build/images/'
-  js:     './build/js/'
-  css:    './build/css/'
-  html:   './build/'
-  copy:   './build/'
+  images: './docs/images/'
+  js:     './docs/js/'
+  css:    './docs/css/'
+  html:   './docs/'
+  copy:   './docs/'
 
 
 gulp.task('stylus', ()->
