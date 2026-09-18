@@ -3,7 +3,7 @@ html(data-l10n-id="html", lang="ru", dir="ltr")
   head
     meta(charset="UTF-8")
     meta(http-equiv="X-UA-Compatible", content="IE=Edge,chrome=1")
-    title Curriculum Vitae
+    title Anton Nemtsev — Staff / Lead Frontend Engineer
     link(rel="stylesheet", href="css/styles.css")
     link(rel="localization", href="js/browser.json")
     script(data-main="js/cv", src="js/require.js")
@@ -11,78 +11,34 @@ html(data-l10n-id="html", lang="ru", dir="ltr")
     .loading
 
     header
-      h1 Curriculum Vitae
-      nav.pdf
-        a(href="pdf/AntonNemtsevCV-ru.pdf", lang="ru") Скачать PDF
-        a(href="pdf/AntonNemtsevCV-en.pdf", lang="en") Download PDF
+      h1(data-l10n-id="full_name") Антон Немцев
       nav.language
         a(href="#ru", lang="ru") По-русски
         a(href="#en", lang="en") In english
+      p.headline Staff / Lead Frontend Engineer
+      p.contact-line
+        span(data-l10n-id="location_value") Амстердам, Нидерланды
+        span.sep= " · "
+        a(href="mailto:newsilentimp@gmail.com") newsilentimp@gmail.com
+        span.sep= " · "
+        a(href="tel:+31621847277") +31 (62) 184-72-77
+        span.sep= " · "
+        a(href="https://www.linkedin.com/in/silentimp/") LinkedIn
+        span.sep= " · "
+        a(href="https://github.com/SilentImp") GitHub
+      p.contact-line.languages
+        span(data-l10n-id="lang_title") Языки:
+        span(data-l10n-id="lang_value") украинский, русский, английский, нидерландский (базовый)
+      img.qr(src="svg/qr.svg", alt="QR code: silentimp.info")
+      nav.pdf
+        a(href="pdf/AntonNemtsevCV-ru.pdf", lang="ru") Скачать PDF
+        a(href="pdf/AntonNemtsevCV-en.pdf", lang="en") Download PDF
 
     section.person
       header
-        h1(data-l10n-id="summary") Резюме
-      table
-        tbody
-          tr
-            td(data-l10n-id="name_title") Имя:
-            td(data-l10n-id="name_value") Немцев Антон
-          tr
-            td(data-l10n-id="bdate_title") Дата рождения:
-            td(data-l10n-id="bdate_value") 21 мая 1983 года
-          tr
-            td(data-l10n-id="citizenship_title") Гражданство:
-            td(data-l10n-id="citizenship_value") Украина
-          tr
-            td(data-l10n-id="lang_title") Языки:
-            td(data-l10n-id="lang_value") Русский, Украинский, Английский
-          tr
-            td(data-l10n-id="status_title") Статус:
-            td(data-l10n-id="status_value") Доступен для найма
-      ul
-        li(data-l10n-id="fact_1") С 2000 по 2016 год являлся независимым разработчиком.  Продался корпорациям.
-        li(data-l10n-id="fact_2") Владею полным стеком технологий, необходимых для разработки веб-проектов.
-        li(data-l10n-id="fact_3") Представитель организации
-          a(href="http://web-standards.ru/") Web Standards
-          |  в Украине
-        li(data-l10n-id="fact_4") Основатель и редактор электронного журнала Frontender Magazine
-        li(data-l10n-id="fact_5") Докладчик на международных и локальных конференциях веб-разработчиков
-        li(data-l10n-id="fact_6") Эксперт на чемпионате UA Web Challenge
-        li(data-l10n-id="fact_7") Член орг. комитета конференции JS Nation
-
-    section.contacts
-      header
-        h1(data-l10n-id="contacts") Контакты
-      table
-        tbody
-          tr
-            td EMail:
-            td
-              a.link-inside(href="mailto:newsilentimp@gmail.com") newsilentimp@gmail.com
-          tr
-            td GitHub:
-            td
-              a.link-inside(href="http://github.com/SilentImp") http://github.com/SilentImp
-          tr
-            td LinkedIn:
-            td
-              a(href="https://www.linkedin.com/in/silentimp/") Anton Nemtsev
-          tr
-            td Twitter:
-            td
-              a.link-inside(href="http://twitter.com/silentimp") @silentimp
-          tr
-            td(data-l10n-id="web") Сайт:
-            td
-              a.link-inside(href="http://frontender.info/") http://frontender.info/
-          tr
-            td(data-l10n-id="tel_nl") Телефон (NL):
-            td
-              a.link-inside(href="tel:+31621847277") +31 (62) 184-72-77
-          tr
-            td(data-l10n-id="tel_ua") Телефон (UA):
-            td
-              a.link-inside(href="tel:+380502773882") +38 (050) 277-38-82
+        h1(data-l10n-id="summary") О себе
+      div.summary
+        p(data-l10n-id="summary_text") Staff / Lead Frontend Engineer в Амстердаме, ex-AWS: фронтенд-платформы, архитектура на React и TypeScript, дизайн-системы и эффективность инженерных команд. В DataSnipper построил инфраструктуру деплоя, которая доводит новое приложение от идеи до окружения для тестирования менее чем за 20 минут. Работаю с Node.js, CI/CD, Terraform и облачной инфраструктурой, определяю техническую стратегию и руковожу инженерами.
 
     section.skills
       header
@@ -90,78 +46,72 @@ html(data-l10n-id="html", lang="ru", dir="ltr")
       table
         thead
           tr
-            th(data-l10n-id="markup") Разметка
-            th(data-l10n-id="scripts") Скрипты
-            th(data-l10n-id="styles") Стили
-            th(data-l10n-id="serverside") Cерверсайд
+            th(data-l10n-id="skills_frontend") Фронтенд
+            th(data-l10n-id="skills_backend") Бэкенд и API
+            th(data-l10n-id="skills_ai") AI
         tbody
           tr
-            td HTML
             td JavaScript
-            td CSS
-            td PHP
-          tr
-            td HAML
-            td Coffee
-            td SASS
             td Node.js
+            td(data-l10n-id="skill_ai_agents") Разработка AI-агентов
           tr
-            td Slim
-            td JQuery
-            td Compass
-            td
-          tr
-            td Jade
-            td React.js
-            td Less
-            td
-          tr
-            td Markdown
-            td Remix.js
-            td Stylus
-            td
-          tr
-            td Pug
-            td ES NEXT
-            td PostCSS
-            td
-          tr
-            td 
             td TypeScript
-            td 
+            td GraphQL
+            td(data-l10n-id="skill_agentic") Агентная разработка
+          tr
+            td React
+            td REST
+            td(data-l10n-id="skill_parallel_agents") Параллельные агенты
+          tr
+            td Next.js
+            td
+            td MCP
+          tr
+            td Remix
+            td
+            td WebMCP
+          tr
+            td TanStack
+            td
+            td Skills
+          tr
+            td HTML &amp; CSS
+            td
             td
         thead
           tr
-            th VCS
-            th(data-l10n-id="automatization") Автоматизация
-            th(data-l10n-id="bd") Базы данных
-            th(data-l10n-id="additional") Дополнительно
+            th(data-l10n-id="skills_testing") Тестирование и дизайн
+            th(data-l10n-id="skills_devops") DevOps и облака
+            th(data-l10n-id="skills_databases") Базы данных
         tbody
           tr
+            td Jest
             td Git
-            td Grunt
-            td MySQL
-            td Photoshop
+            td PostgreSQL
           tr
-            td Mercurial
-            td Gulp
+            td Vitest
+            td GitHub Actions
             td MongoDB
-            td Flash
           tr
-            td
-            td Webpack
-            td
-            td ActionScript
-          tr
-            td
-            td Docker
-            td
-            td Magento
-          tr
-            td
+            td React Testing Library
             td GitLab CI
+            td MySQL
+          tr
+            td Playwright
+            td Docker
+            td Redis
+          tr
+            td Cypress
+            td Terraform
+            td Elasticsearch
+          tr
+            td Storybook
+            td AWS
             td
-            td Sketch
+          tr
+            td Figma
+            td Azure
+            td
 
 
     section.experience
@@ -170,71 +120,125 @@ html(data-l10n-id="html", lang="ru", dir="ltr")
       
       table
         tr
-          td 2024-:
-          td(data-l10n-id="experience_14") Работа в Datasnipper в роли Software Engineer. 
-            | Создал и поддерживаю фронтенд-гильдию в компании, что бы убедиться в единообразии принимаемых решений. 
-            | Принимал активное участие в создании фронтенд-архитектуры.
-            | Построил систему деплоя для фронтенда, которая включает библиотеку переиспльзуемых пайплайн-скриптов и терраформ конфигурацию.
-            | Предоставляю возможности обучения и подталкиваю коллег к тому, что бы они ими пользовались. 
-            | Делаю доклады внутри компании.
+          td
+            | 2024–
+            span(data-l10n-id="present") наст. время
+          td
+            p.position Senior Software Engineer, DataSnipper
+            div(data-l10n-id="experience_14")
+              p Создал и возглавил фронтенд-гильдию, сформировал фронтенд-архитектуру, инженерные стандарты и практики разработки. Построил платформу деплоя фронтенда и переиспользуемую инфраструктуру, которые проводят новое приложение от идеи до развёрнутого окружения для тестирования в браузере менее чем за 20 минут.
+              p Внедрил практики агентной разработки: создал базу знаний на основе навыков (skills) по более чем 100 репозиториям компании, чтобы агенты могли работать за пределами отдельных проектов, и процесс работы с пятью параллельными агентами на Git worktrees, который в несколько раз сократил время разработки платформенных проектов.
         tr
-          td 2023-2024:
-          td(data-l10n-id="experience_13") Работа в i3d.net в роли Staff Engineer. Отличная возможность построить конкурента Amazon AWS практически с нуля.
+          td 2023–2024
+          td
+            p.position Staff Engineer, i3D.net
+            div(data-l10n-id="experience_13")
+              p i3D.net — дочерняя компания Ubisoft, предоставляющая хостинг и глобальную инфраструктуру для онлайн-игр. Отвечал за фронтенд-направление: техническое развитие, координацию с другими направлениями и поддержку фронтенд-разработчиков.
+              p Определил фронтенд-архитектуру и инфраструктуру, ввёл стандарты качества и процессы их контроля, вёл дорожную карту развития фронтенда. Создавал для разработчиков пути развития и возможности для обучения, при этом сам участвовал в разработке продукта.
+              p Результатом стали фронтенд-платформа и архитектурные стандарты, которые упростили добавление новых приложений и расширение существующих, включая панель управления хостингом и развёртыванием игр для крупных компаний и независимых разработчиков.
         tr
-          td 2021-2023:
-          td(data-l10n-id="experience_12") Работа в Amazon AWS в качестве фронтенд-разработчика. Я разрабатывал RDS Ops Console в рамках AWS. Эта консоль только для внутреннего пользования, которая нужна, что бы решать проблемы связанные с работой баз данных. Я создал дорожную карту для развития фронтенда в продукте, наладил контроль стиля кода и тестирование, создал систему, с помощью которой пользователи могут оставлять отзывы о работе консоли и многое другое.
+          td 2023–2024
+          td
+            p.position Head of Department, Projector Institute
+            div(data-l10n-id="experience_15")
+              p Участвовал в создании линейки фронтенд-курсов по HTML, CSS, JavaScript и React.js. С нуля разработал процессы создания и поддержки курсов, включая расчёт и визуализацию преподавательской нагрузки, подготовку новых курсов к запуску и координацию авторов и преподавателей.
         tr
-          td 2019-2021:
-          td(data-l10n-id="experience_11") Работа в компании <a href="https://werkspot.nl/">Werkspot</a> в качестве фронтенд-разработчика. 
+          td 2021–2023
+          td
+            p.position Senior Software Engineer, Amazon Web Services (AWS)
+            div(data-l10n-id="experience_12")
+              p Отвечал за фронтенд RDS Ops Console — внутренней панели управления, с помощью которой инженеры AWS обслуживают Amazon RDS. Определил дорожную карту развития фронтенда, включая перевод консоли с устаревшего стека Ruby и jQuery на React и TypeScript. Внедрил контроль качества кода и систему модульного тестирования с контролем покрытия, создал механизмы обратной связи для сбора проблем UI/UX от пользователей консоли. Эти улучшения вдвое (2×) повысили оценку удовлетворённости внутренних пользователей консоли. Также внедрил canary-тестирование всей консоли, что дало команде уверенность в работе критической функциональности и позволило находить проблемы до того, как с ними столкнутся пользователи.
         tr
-          td 2017-2018:
-          td(data-l10n-id="experience_10") Работа в компании <a href="https://www.templatemonster.com/">Template Monster</a> в качестве ведущего фронтенд-разработчика. Вёл три команды состоящие из восьми фронтенд-разработчиков и расположенные в Киеве, Николаеве и Львове.
+          td 2019–2021
+          td
+            p.position Senior Frontend Developer,
+              |  
+              a(href="https://werkspot.nl/") Werkspot
+            div(data-l10n-id="experience_11")
+              p Работал фронтенд-разработчиком в Werkspot: участвовал в создании и внедрении нового фронтенд-стека на основе React и Next.js и переводе существующего приложения на новую архитектуру.
+              p Разработал ключевые части фронтенд-платформы, включая системы переводов и управления формами, внедрил систему сеток. Участвовал в разработке критически важных для бизнеса пользовательских сценариев и помог заложить технические основы нового фронтенд-стека.
+              p Также участвовал в найме и представлял компанию на конференциях и в технических статьях, укрепляя её инженерный бренд.
         tr
-          td 2016-2017:
-          td(data-l10n-id="experience_9") Работа в компании <a href="http://www.vaimo.com/">VAIMO</a> над магазинами <a href="https://www.bauhaus.se/">BAUHAUS Sweden</a>, <a href="http://store.jackdaniels.co.uk/">Jack Daniel's UK</a>, <a href="https://www.jackdaniels.de/">Jack Daniel's DE</a>, <a href="http://www.brownforman.com.au/">Brown-Forman Australia</a>, <a href="https://www.ontime.com/">ONTIME</a> и другими.
+          td 2017–2018
+          td
+            p.position Lead Frontend Developer,
+              |  
+              a(href="https://www.templatemonster.com/") TemplateMonster.com
+            div(data-l10n-id="experience_10")
+              p Руководил тремя фронтенд-командами из восьми инженеров во Львове, Николаеве и Киеве: отвечал за найм, менторство, техническое направление и повседневное инженерное руководство.
+              p Сыграл ключевую роль в превращении продукта из магазина товаров, созданных TemplateMonster, в платформу, на которой любой может продавать цифровой медиаконтент. Участвовал в создании архитектуры и определении технического направления фронтенда новой платформы, которая была построена с нуля на основе новой дизайн-системы и более чем 40 REST-микросервисов.
+              p Сформировал фронтенд-архитектуру и практики разработки новой платформы, включая собственное решение для SSR на основе React. Руководил масштабной оптимизацией производительности, включая HTTP/2 Server Push и кэширование на стороне клиента, чтобы платформа могла масштабироваться в рамках новой бизнес-модели.
         tr
-          td 2015-2016:
-          td(data-l10n-id="experience_8") Работа в качестве фронтенд-разработчика в проектах таких студий, как <a href="https://www.aretodev.com/">Areto Development</a>, <a href="http://vacaykit.com/">Vacay Kit</a>, <a href="https://3waytalk.com/">3 Way Talk</a>, Yoke Labs.
-
+          td 2016–2017
+          td
+            p.position Frontend Developer,
+              |  
+              a(href="http://www.vaimo.com/") Vaimo
+            div(data-l10n-id="experience_9")
+              p Разрабатывал магазины на Magento для Brown-Forman (Jack Daniel's), Bauhaus Sweden, Ontime и Alyasra.
         tr
-          td 2014-2015:
-          td(data-l10n-id="experience_7") Работа в качестве фронтенд-разработчика в проектах таких студий, как <a href="http://www.alignedcode.com/">Aligned Code</a>, Binary Garage, Yoke Labs, <a href="https://territory.com.ua/">CB Territory</a>.
-
+          td 2015–2016
+          td
+            p.position Frontend Developer,
+              |  
+              a(href="https://www.aretodev.com/") Areto Development
+            div(data-l10n-id="experience_8")
+              p Фронтенд-разработчик в проектах Areto Development, Vacay Kit, 3 Way Talk и Yoke Labs.
         tr
-          td 2012-2013:
-          td(data-l10n-id="experience_6") Разработка фронтенда Focal Point для компании Parallels Software
-
+          td 2014–2015
+          td
+            p.position Frontend Developer,
+              |  
+              a(href="http://www.alignedcode.com/") Aligned Code
+            div(data-l10n-id="experience_7")
+              p Фронтенд-разработчик в проектах Aligned Code, Binary Garage, Yoke Labs и CB Territory.
         tr
-          td 2012:
-          td(data-l10n-id="experience_5") Работа над фронтендом проекта Giftofoni
-
+          td 2013–2016
+          td
+            p.position Editor in Chief, Founder, Frontender Magazine
+            div(data-l10n-id="experience_16")
+              p Frontender Magazine — бесплатное онлайн-издание о фронтенд-разработке для русскоязычных разработчиков. Я организовывал работу редакторов, шести переводчиков основной команды и 15 внештатных переводчиков и руководил переводом и публикацией около 300 статей. На пике аудитория журнала превышала 100 000 уникальных пользователей в месяц.
+              p С нуля создал платформу журнала с широкой автоматизацией поиска и публикации материалов: анализ почтовых рассылок для поиска новых статей, извлечение содержимого статей с сайтов, автоматические подсказки для перевода, генерация статического контента, автоматический запрос разрешений на перевод у авторов и другие инструменты, упростившие работу редакции.
         tr
-          td 2011-2012:
-          td(data-l10n-id="experience_4") Работа над проектами
-            a.link-inside(href="http://zn.ua/") http://zn.ua/
-            |  и http://znaki.fm/
-
+          td 2012–2013
+          td
+            p.position Frontend Developer, Parallels
+            div(data-l10n-id="experience_6")
+              p Разработал фронтенд Focal Point — продукта «домашний офис» для малого бизнеса.
         tr
-          td 2011:
-          td(data-l10n-id="experience_3") Работа со студией
-            a(href="http://evilmartians.com/") Evil Martians
-            |  в качестве фронтенд-разработчика и участие в разработке таких проектов, как
-            a.link-inside(href="http://groupon.ru/") http://groupon.ru/
-            |  и
-            a.link-inside(href="http://i-lift.tv/ ") http://i-lift.tv/
-
+          td 2012
+          td
+            p.position Frontend Developer, Giftofoni
+            div(data-l10n-id="experience_5")
+              p Разработал фронтенд Giftofoni.
         tr
-          td 2010-2011:
-          td(data-l10n-id="experience_2") Разработка фронтенда сайта
-            a.link-inside(href="http://www.pokeroff.ru/") http://www.pokeroff.ru/
-
+          td 2011–2012
+          td
+            p.position Frontend Developer, ZN.UA
+            div(data-l10n-id="experience_4")
+              p Фронтенд-разработка для ZN.UA (ведущего украинского новостного издания) и Znaki.fm, включая сложные редакционные проекты и проекты для рекламных кампаний.
+              p Создавал сложные посадочные страницы для рекламных кампаний на ZN.UA, а также страницы с индивидуальным дизайном для крупных журналистских расследований, сочетая уникальную вёрстку, интерактивные элементы и инфографику, чтобы понятно подать сложный материал.
         tr
-          td 2005-2010:
-          td(data-l10n-id="experience_1")
-            p Разработка проектов для рекламных агентств R.A.M. и
-              a.link-inside(href="http://www.paradigm.com.ua/") Paradigm Consulting Group
-            p Работа с брендами Pall Mall, Kent, Camel, Lays, Kinder, Nestle, DreamWorks, MTv, Indesit, Samsung и многими другими.
-            p В проектах исполняю роль фронтенд-разработчика и flash-разработчика, включая дизайн, анимацию и  программирование на action script.
+          td 2011
+          td
+            p.position Frontend Developer,
+              |  
+              a(href="http://evilmartians.com/") Evil Martians
+            div(data-l10n-id="experience_3")
+              p Работал фронтенд-разработчиком со студией Evil Martians над проектами, включая Groupon Russia и i-lift.tv.
+        tr
+          td 2010–2011
+          td
+            p.position Frontend Developer, Pokeroff
+            div(data-l10n-id="experience_2")
+              p Разработка портала Pokeroff.ru с нуля, включая архитектуру и реализацию фронтенда, а также проектирование и настройку системы сборки.
+        tr
+          td 2000–2010
+          td
+            p.position Software Engineer, R.A.M.
+            div(data-l10n-id="experience_1")
+              p Разработка цифровых проектов для рекламных агентств R.A.M. и Paradigm Consulting Group, работа с такими брендами, как Pall Mall, Kent, Camel, Lay’s, Kinder, DreamWorks, MTV, Indesit, Samsung и другими.
+              p Работал фронтенд-разработчиком, flash-разработчиком и дизайнером: проектирование интерфейсов, иллюстрации, анимация, разработка на ActionScript и фронтенд-реализация.
 
     section.education
       header
@@ -242,16 +246,13 @@ html(data-l10n-id="html", lang="ru", dir="ltr")
       table
         tbody
           tr
-            td 2000-2007
+            td 2000–2007
             td
               p(data-l10n-id="place_2") Национальный Технический Университет Украины «Киевский Политехнический Институт»
               ul
                 li(data-l10n-id="grade_1") Степень специалиста в области разработки электронных устройств
                 li(data-l10n-id="grade_2") Степень магистра информационных технологий
 
-          tr
-            td 1990-2000
-            td(data-l10n-id="place_1") Физико-математический лицей
 
     section.talks
       

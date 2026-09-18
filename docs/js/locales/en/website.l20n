@@ -1,109 +1,113 @@
 <html
   lang: "en">
 
-<summary "Abstract">
+<full_name "Anton Nemtsev">
+<location_value "Amsterdam, Netherlands">
+<present "Present">
 
-<name_title "Name:">
-<name_value "Anton Nemtsev">
-
-<bdate_title "Date of Birth:">
-<bdate_value "May 21, 1983">
-
-<citizenship_title "Citizenship:">
-<citizenship_value "Ukraine">
+<summary "Summary">
 
 <lang_title "Languages:">
-<lang_value "Russian, Ukrainian, English">
+<lang_value "English, Ukrainian, Russian, Dutch (basic)">
 
-<status_title "Status:">
-<status_value "Available for hire">
-
-<fact_1 "Freelance developer from 2000 till 2016">
-<fact_2 "Full-stack developer">
-<fact_3 "Representative of <a>Web Standards</a> community in Ukraine">
-<fact_4 "Founder and chief-editor of <a>Frontender Magazine</a>">
-<fact_5 "Speaker at local and international web development conferences">
-<fact_6 "UA Web Challenge expert">
-<fact_7 "JS Nation org. commity member">
-
-<contacts "Contacts">
-
-<tel_ua "Phone (UA):">
-<tel_nl "Phone (NL):">
-<web "Site:">
+<summary_text "Staff / Lead Frontend Engineer based in Amsterdam, ex-AWS, specialising in frontend platforms, React and TypeScript architecture, design systems, and engineering effectiveness. At DataSnipper, built reusable deployment infrastructure that reduced idea-to-testable-environment time to under 20 minutes. Hands-on across Node.js, CI/CD, Terraform, and cloud infrastructure, with experience defining technical strategy and leading engineers.">
 
 <education "Education">
 
-<place_1 "Physical &amp; Mathematical School">
-<place_2 "National Technical University of Ukraine 'Kyiv Polytechnic Institute’, Post-Graduate Study">
+<place_2 "National Technical University of Ukraine ‘Kyiv Polytechnic Institute’">
 
 <grade_1 "Specialist degree in development of electronic devices">
 <grade_2 "Master's degree in computer science">
 
 <experience "Experience">
 
-<experience_1 """
-  <p>Projects development for advertising agencies R.A.M. and <a>Paradigm Consulting Group</a></p>
-  <p>Working with such brands as Pall Mall, Kent, Camel, Lays, Kinder, DreamWorks, MTv, Indesit, Samsung etc.</p>
-  <p>Providing services as frontend-developer, flash-developer (drawing, animaton, ActionScript), designer.</p>
-""">
-
-<experience_2 "Development of <a>http://www.pokeroff.ru/</a>">
-
-<experience_3 "Working with <a>Evil Martians</a> studio. Among projects are <a>http://groupon.ru/</a> and <a>http://i-lift.tv/</a>">
-
-<experience_4 "Development of <a>http://zn.ua/</a> and http://znaki.fm/">
-
-<experience_5 "Development of Giftofoni">
-
-<experience_6 "Development of Focal Point for Parallels Software">
-
-<experience_7 """
-  Work as frontend-developer in projects of <a>Aligned Code</a>, Binary Garage, Yoke Labs, <a>CB Territory</a>.
-""">
-
-<experience_8 """
-  Work as frontend-developer in projects of <a>Areto Development</a>, <a>Vacay Kit</a>, <a>3 Way Talk</a>, Yoke Labs.
-""">
-
-<experience_9 """
-  Work at <a>VAIMO</a> on projects <a>BAUHAUS Sweden</a>, <a>Jack Daniel's UK</a>, <a>Jack Daniel's DE</a>, <a>Brown-Forman Australia</a>, <a>ONTIME</a> etc. Help building education processes inside the company. Partipate in the introducing es6 to the company stack. 
-""">
-
-<experience_10 """
-  Work at <a>Template Monster</a> as lead frontend-developer. I have lead three teams with eight frontend developers located in Lviv, Mykolaiv and Kyiv. Participate in hiring people for these teams and mentoring. Take part in the creation of project architecture, including the frontend part of the project. We have transformed the project from the shop that sells products created in the Template Monster to the platform that allows anyone to sell media content. The platform was created ground up, with the new design system. Technical part included multiple REST microservices and was built with React with unique SSR solution. Huge work was done on performance optimization, including http2 push and use of the client-side cache. 
-""">
-
-<experience_11 """
-  Work at <a>Werkspot</a> as a frontend-developer. Help build a new front-end stack based on React and Next.js framework and continue migrating an application to this stack. Among other things developed the translations system, form management system, introduce grid layout, and participate in creating business-critical user flows. Help with hiring people. Work on company branding by representing the company on conferences and writing articles.
-""">
-
-<experience_12 """
-  Work at Amazon AWS. RDS Ops Console is an internal Rails web application which allows engineers to manage the RDS service and its resources. I have created frontend roadmap, implement code style control and build unit testing system with coverage control, add feedback mechanisms for the console consumers, cover console with canaries and many more.
+<experience_14 """
+  <p>Created and led the frontend guild, establishing frontend architecture, engineering standards and development practices. Built the frontend deployment platform and reusable infrastructure that take a new application from idea to a deployed, browser-testable environment in under 20 minutes.</p>
+  <p>Introduced agentic development practices: built a skills-based knowledge base from 100+ company repositories so agents can work beyond individual projects, and a workflow with up to five parallel agents on Git worktrees that cut development time on platform projects several times.</p>
 """>
 
 <experience_13 """
-  Work at i3d.net as a Staff Engineer. Great opportunity to build Amazon AWS competitor almost ground up.
+  <p>i3D.net, a Ubisoft company, provides game hosting and global infrastructure for online games. I owned the frontend pillar: technical direction, coordination with other pillars, and support of the frontend engineers.</p>
+  <p>Defined the frontend architecture and infrastructure, introduced quality standards with processes to monitor and enforce them, and maintained the frontend roadmap. Created development paths and learning opportunities for engineers while staying hands-on with product work.</p>
+  <p>The result was a frontend platform and architectural standards that made it easier to add new applications and extend existing ones, including a dashboard for managing game hosting and deploying new games for enterprise customers and indie developers.</p>
 """>
 
-<experience_14 """
-  Work at Datasnipper as a Software Engineer.
-  I did create frontent guild in the company to ensure alignment between the team and consistent approach to problem solving.
-  Lead creation of frontend architecture.
-  Built deployment system for frontend, including library of reusable GitHub actions and workflows, Rulsets and Terraform configurations.
-  Create learning opportunities for the collegues and put efford to build knowledge sharing culture.
+<experience_15 """
+  <p>Helped build a frontend course lineup covering HTML, CSS, JavaScript, and React.js. Developed the processes for creating and maintaining courses from the ground up, including calculating and visualising teaching workload, preparing new courses for launch, and coordinating authors and teachers.</p>
+""">
+
+<experience_12 """
+  <p>Owned the frontend for the RDS Ops Console — the internal control plane AWS engineers use to operate Amazon RDS. Defined the frontend roadmap, including migrating the console from a legacy Ruby and jQuery stack to React and TypeScript, introduced code quality controls and a unit testing system with coverage enforcement, and built feedback mechanisms to surface UI/UX issues reported by console users. These improvements doubled (2×) the console's internal user satisfaction score. Also introduced canary testing across the console, giving the team confidence that critical functionality was working and letting us catch issues before they reached users.</p>
+""">
+
+<experience_11 """
+  <p>Worked as a Frontend Developer at Werkspot, helping build and roll out a new frontend stack based on React and Next.js while migrating the existing application to the new architecture.</p>
+  <p>Developed key parts of the frontend platform, including the translation and form management systems, and introduced a grid layout system. Contributed to business-critical user flows and helped establish the technical foundations for the new frontend stack.</p>
+  <p>Also contributed to hiring and represented the company at conferences and through technical articles, helping strengthen the company’s engineering brand.</p>
+""">
+
+<experience_10 """
+  <p>Led three frontend teams of eight engineers across Lviv, Mykolaiv, and Kyiv, with responsibility for hiring, mentoring, technical direction, and day-to-day engineering leadership.</p>
+  <p>Played a key role in transforming the product from a marketplace for TemplateMonster-created products into a platform where anyone could sell digital media content. Contributed to the architecture and frontend technical direction of the new platform, which was built from the ground up around a new design system and more than 40 REST microservices.</p>
+  <p>Established the frontend architecture and development practices for the new platform, including a custom React-based SSR solution. Led major performance optimisation efforts, including HTTP/2 Server Push and client-side caching, to ensure the platform could scale with the new product model.</p>
+""">
+
+<experience_9 """
+  <p>Built Magento storefronts for Brown-Forman (Jack Daniel's), Bauhaus Sweden, Ontime and Alyasra.</p>
+""">
+
+<experience_8 """
+  <p>Worked as a Frontend Developer on projects for Areto Development, Vacay Kit, 3 Way Talk and Yoke Labs.</p>
+""">
+
+<experience_7 """
+  <p>Worked as a Frontend Developer on projects for Aligned Code, Binary Garage, Yoke Labs and CB Territory.</p>
+""">
+
+<experience_16 """
+  <p>Frontender Magazine was a free online publication about frontend development for Russian-speaking developers. I organised the work of the editors, six core-team translators, and 15 freelance translators, overseeing the translation and publication of around 300 articles. At its peak, the magazine reached more than 100,000 unique users per month.</p>
+  <p>I built the platform from the ground up, with extensive automation for content acquisition and publishing. This included analysing email subscriptions to discover new articles, extracting article content from websites, providing automated translation hints, generating static content, automatically requesting translation permissions from authors, and other tools that streamlined the editorial workflow.</p>
+""">
+
+<experience_6 """
+  <p>Built the frontend of Focal Point, a home office product for small businesses.</p>
+""">
+
+<experience_5 """
+  <p>Built the frontend of Giftofoni.</p>
+""">
+
+<experience_4 """
+  <p>Frontend development for ZN.UA (a leading Ukrainian news outlet) and Znaki.fm, including complex editorial and campaign-driven experiences.</p>
+  <p>Built sophisticated landing pages for advertising campaigns on ZN.UA, as well as custom-designed pages for major journalistic investigations, combining bespoke layouts, interactive elements, and infographics to present complex content clearly.</p>
+""">
+
+<experience_3 """
+  <p>Worked with the Evil Martians studio as a Frontend Developer on projects including Groupon Russia and i-lift.tv.</p>
+""">
+
+<experience_2 """
+  <p>Development of the Pokeroff.ru portal from the ground up, including frontend architecture and implementation, as well as designing and setting up the build system.</p>
+""">
+
+<experience_1 """
+  <p>Development of digital projects for advertising agencies R.A.M. and Paradigm Consulting Group, working with brands such as Pall Mall, Kent, Camel, Lay’s, Kinder, DreamWorks, MTV, Indesit, Samsung, and others.</p>
+  <p>Provided services as a Frontend Developer, Flash Developer, and Designer, covering UI design, illustration, animation, ActionScript development, and frontend implementation.</p>
 """>
 
 
 <skills "Skills">
 
-<markup "Markup">
-<scripts "Scripting">
-<styles "Styles">
-<automatization "Automatization">
-<additional "Additional">
-<bd "Database">
-<serverside "Backend">
+<skills_frontend "Frontend">
+<skills_backend "Backend & APIs">
+<skills_ai "AI">
+<skills_testing "Testing & Design">
+<skills_devops "DevOps & Cloud">
+<skills_databases "Databases">
+
+<skill_ai_agents "Building AI agents">
+<skill_agentic "Agentic workflows">
+<skill_parallel_agents "Parallel agents">
 
 <xai "National Aerospace University – Kharkiv Aviation Institute">
 
@@ -145,9 +149,9 @@
 <time_29 "Minsk, October 29, 2016">
 <time_30 "Kyiv, November 26, 2016">
 <time_31 "Kyiv, February 8, 2017">
-<time_32 "Kyiv, March 26, 2017">
+<time_32 "Kyiv, March 16, 2017">
 <time_33 "Kharkiv, April 22, 2017">
-<time_34 "Moscow, November 18, 2018">
+<time_34 "Moscow, November 18, 2017">
 <time_35 "Kyiv, February 17, 2018">
 <time_36 "Kharkiv, March 15, 2018">
 <time_37 "Kyiv, March 18, 2018">
@@ -159,7 +163,7 @@
 <talk_title_2 "Overview of the new JavaScript API">
 <talk_title_5 "Editing Content in the Browser">
 <talk_title_6 "On the Edge">
-<talk_title_8 "Some Funy CSS Tricks You May Use in Lazy Game Dev">
+<talk_title_8 "Some Funny CSS Tricks You May Use in Lazy Game Dev">
 <talk_title_11 "JavaScript Patterns">
 <talk_title_16 "Frontender Magazine">
 <talk_title_18 "Lost Specifications">

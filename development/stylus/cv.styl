@@ -29,6 +29,26 @@ body>header
   h1
     font-size 4.8rem
     display inline-block
+  .headline
+    font-size 1.618rem
+    margin .809rem 0 0
+    white-space normal
+  .contact-line
+    margin .809rem 0 0
+    white-space normal
+    color #666
+    & + .contact-line
+      margin-top .4045rem
+  .sep
+    margin 0 .25em
+  .qr
+    display none
+  .contact-line
+    a,
+    span:not(.sep)
+      white-space nowrap
+    &.languages span+span
+      margin-left .3em
 
 html[lang^="ru"]
   .pdf a[lang^="en"],
@@ -239,6 +259,19 @@ section
           margin 0
           font-size 1.4rem
 
+  &.person
+    .summary
+      margin 1.618rem 0 0
+      p
+        margin 0
+      p+p
+        margin 1rem 0 0
+
+  &.experience
+    .position
+      font-weight bold
+      margin 0 0 .809rem
+
   &.skills
     table
       tbody+thead th
@@ -246,7 +279,7 @@ section
         padding-top 1.618rem
       th,
       td
-        width 25%
+        width 33.333%
         border-bottom-style none
         border-right 1px solid #e8e8e8
         padding 0.4045rem 1.618rem
@@ -254,7 +287,7 @@ section
           color #ccc
       th:first-child,
       td:first-child
-        width 25%
+        width 33.333%
         padding-left 0
       th
         font-size 1rem
@@ -343,20 +376,26 @@ section
     display none
 
   body>header
+    max-width none
     padding-top 0
+    padding-right unquote('calc(3.236rem + 155px + 1.618rem)')
 
     h1
       padding 0
       font-size 3rem
-      &:after
-        content url("http://qrcode.kaywa.com/img.php?s=5&d=http://silentimp.info")
-        position absolute
-        right 0
-        top 0
+
+    .qr
+      display block
+      position absolute
+      top 0
+      right 3.236rem
+      width 155px
+      height 155px
 
 
   img
     page-break-inside avoid
 
   @page
+    size A4
     margin 1cm
