@@ -249,7 +249,7 @@
 <talk_abstract_31 "Authentication is a pain point for many businesses, which lose a significant percentage of the potential customers on sign-up and sign-in steps. It's possible to improve the process in a way that would minimize this percentage.">
 <talk_abstract_32 "How to identify performance issues with real user measurements and W3C standards.">
 <talk_abstract_33 "Everybody loves to talk about performance and how important it is. But nobody knows how their site is performing and how it's changing with time. Let's find out what we should measure, how we should do it, how to log it, and what standards may help us.">
-<talk_abstract_34 "Do you remember the times when we spent a week configuring Webpack before even starting to code? Now we have a builder deeply integrated with a framework. Do you even know what Vite configuration you have inside your Next.js or Remix.js application? But do we even need this? What are we missing to forget about all these nasty bundlers?!">
+<talk_abstract_34 "Do you remember the times when we spent a week configuring Webpack before even starting to code? Now we have a bundler deeply integrated with a framework. Do you even know what Vite configuration you have inside your Next.js or Remix.js application? But do we even need this? What are we missing to forget about all these nasty bundlers?!">
 
 <publication_time_1 "May 20, 2020">
 
