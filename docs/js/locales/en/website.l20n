@@ -10,7 +10,7 @@
 <lang_title "Languages:">
 <lang_value "English, Ukrainian, Russian, Dutch (basic)">
 
-<summary_text "Staff / Lead Software Engineer based in Amsterdam, with deep frontend expertise and a broad full-stack background. I work hands-on across products, frontend systems, backend services, development infrastructure, and technical direction. Former AWS engineer; currently working across platform and product development at DataSnipper.">
+<summary_text "Staff / Lead Software Engineer in Amsterdam (26+ years, ex-AWS) with deep frontend expertise and broad full-stack background. Hands-on across architecture, design systems, React/Next.js, Node.js and platform infrastructure. At DataSnipper built frontend deployment platform (&lt;20 min from idea to browser-testable env) and led frontend guild; implemented agentic workflows for the platform — skills-based knowledge base from 100+ repos and parallel agents on worktrees. Speaker & GitNation org. committee.">
 
 <education "Education">
 
@@ -23,7 +23,7 @@
 
 <experience_14 """
   <p>Created and led the frontend guild, establishing frontend architecture, engineering standards and development practices. Built the frontend deployment platform and reusable infrastructure that take a new application from idea to a deployed, browser-testable environment in under 20 minutes.</p>
-  <p>Introduced agentic development practices: built a skills-based knowledge base from 100+ company repositories so agents can work beyond individual projects, and a workflow with up to five parallel agents on Git worktrees that cut development time on platform projects several times.</p>
+  <p>Implemented agentic workflows for the platform: built a skills-based knowledge base from 100+ repos and a workflow with up to five parallel agents on Git worktrees for platform development.</p>
 """>
 
 <experience_13 """
@@ -98,9 +98,9 @@
 
 <skills "Skills">
 
-<skills_frontend "Frontend">
-<skills_backend "Backend & APIs">
-<skills_ai "AI">
+<skills_frontend "full-stack">
+<skills_platform "platform & delivery">
+<skills_ai "ai">
 <skills_testing "Testing & Design">
 <skills_devops "DevOps & Cloud">
 <skills_databases "Databases">
@@ -112,11 +112,13 @@
 <xai "National Aerospace University – Kharkiv Aviation Institute">
 
 <talks "Speaking">
+<publications "Publications">
 
 <video "Video">
 <repo "GitHub">
 <slides "Presentation">
 <slides_online "Presentation online">
+<article "Article">
 
 <time_1 "Riga, May 22, 2010">
 <time_2 "Kyiv, September 18, 2010">
@@ -158,6 +160,12 @@
 <time_38 "Kyiv, April 7, 2018">
 <time_39 "Chernivtsi, June 23, 2018">
 <time_40 "Chernivtsi, June 10, 2017">
+<time_41 "Amsterdam, December 12, 2024">
+<time_42 "Online, February 9–11, 2022">
+<time_43 "Online, April 2021">
+<time_44 "Amsterdam, October 2019">
+<time_45 "Minsk, September 21, 2019">
+<time_46 "Kyiv, October 18, 2025">
 
 <talk_title_1 "HTML5 and CSS3">
 <talk_title_2 "Overview of the new JavaScript API">
@@ -178,6 +186,12 @@
 <talk_title_27 "Holy Grail">
 <talk_title_28 "Make checkout great again">
 <talk_title_29 "Code Style & Violence">
+<talk_title_30 "HTML's Witnesses">
+<talk_title_31 "HTML Best Practice">
+<talk_title_32 "Make your authentication flow perfect">
+<talk_title_33 "Server Timing and User Timing">
+<talk_title_34 "Performance monitoring in the project">
+<talk_title_35 "Do we need to bundle?">
 
 <talk_abstract_1 "Evolution of webstandards">
 <talk_abstract_2 "HTML5 specification and other W3C specification drafts">
@@ -197,3 +211,15 @@
 <talk_abstract_26 "Let's talk about layouts. From the start.">
 <talk_abstract_27 "How to implement and control codestyle best practices in your team.">
 <talk_abstract_28 "Internet acquiring? What are you talking about?!">
+<talk_abstract_29 "Can I tell you about HTML and how much you don't need this nasty JavaScript with the help of new shiny Invokers?">
+<talk_abstract_30 "Nowadays we neglect HTML. It's not even a programming language, what is the big deal?! But it has consequences. Bad ones. Let's make HTML great again!">
+<talk_abstract_31 "Authentication is a pain point for many businesses, which lose a significant percentage of the potential customers on sign-up and sign-in steps. It's possible to improve the process in a way that would minimize this percentage.">
+<talk_abstract_32 "How to identify performance issues with real user measurements and W3C standards.">
+<talk_abstract_33 "Everybody loves to talk about performance and how important it is. But nobody knows how their site is performing and how it's changing with time. Let's find out what we should measure, how we should do it, how to log it, and what standards may help us.">
+<talk_abstract_34 "Do you remember the times when we spent a week configuring Webpack before even starting to code? Now we have a builder deeply integrated with a framework. Do you even know what Vite configuration you have inside your Next.js or Remix.js application? But do we even need this? What are we missing to forget about all these nasty bundlers?!">
+
+<publication_time_1 "May 20, 2020">
+
+<publication_title_1 "How To Make Performance Visible With GitLab CI And Hoodoo Of GitLab Artifacts">
+
+<publication_abstract_1 "It's not enough to optimize an application. You need to prevent performance from degradation, and the first step to do it is to make performance changes visible. This article shows a couple of ways of showing them in GitLab merge requests.">

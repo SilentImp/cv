@@ -1,11 +1,11 @@
-define ['cookieController','template_polyfill','l20n'], (cookieController)->
+define ['storageController','template_polyfill','l20n'], (storageController)->
 
   class CVController
     constructor: ->
       @pointer_event = 'click'
 
 
-      @cookie = cookieController
+      @cookie = storageController
       @loading = document.querySelector "body>.loading"
 
 

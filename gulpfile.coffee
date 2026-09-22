@@ -5,10 +5,9 @@ concat      = require 'gulp-concat'
 uglify      = require 'gulp-uglify'
 stylus      = require 'gulp-stylus'
 coffee      = require 'gulp-coffee'
-jade        = require 'gulp-jade'
+pug         = require 'gulp-pug'
 minify_html = require 'gulp-htmlmin'
 minify_css  = require 'gulp-clean-css'
-deploy      = require 'gulp-gh-pages'
 
 development_path =
   images:     './development/images/**'
@@ -32,7 +31,7 @@ gulp.task('stylus', ()->
       set:['compress']
     ))
     .pipe(autoprefixer({
-      browsers: ['last 2 versions'],
+      overrideBrowserslist: ['last 2 versions'],
       cascade: false
     }))
     .pipe(order([
@@ -63,7 +62,7 @@ gulp.task('coffee', ()->
 
 gulp.task('jade', ()->
   return gulp.src(development_path.jade)
-    .pipe(jade())
+    .pipe(pug())
     .pipe(minify_html(
       empty: true
       conditionals: true
@@ -71,24 +70,12 @@ gulp.task('jade', ()->
     .pipe gulp.dest(production_path.html)
 )
 
-gulp.task('build', ['copy', 'jade', 'stylus', 'coffee'], ()->
-
-
-)
-
-gulp.task('deploy',  ()->
-  console.log 'deploying'
-  return gulp.src(development_path.build)
-    .pipe(deploy().on('error', ()->
-      console.log 'error', arguments
-      ))
-
-)
+gulp.task('build', gulp.parallel('copy', 'jade', 'stylus', 'coffee'))
 
 gulp.task('watch', ()->
-  gulp.watch development_path.jade,   ['jade']
-  gulp.watch development_path.stylus, ['stylus']
-  gulp.watch development_path.coffee, ['coffee']
+  gulp.watch development_path.jade,   gulp.series('jade')
+  gulp.watch development_path.stylus, gulp.series('stylus')
+  gulp.watch development_path.coffee, gulp.series('coffee')
 )
 
-gulp.task 'default', ['jade', 'stylus', 'coffee', 'watch']
+gulp.task 'default', gulp.series(gulp.parallel('jade', 'stylus', 'coffee'), 'watch')

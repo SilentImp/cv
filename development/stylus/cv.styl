@@ -237,7 +237,8 @@ section
           transform scale(.8)
           opacity 0
 
-  &.talks
+  &.talks,
+  &.publications
     table
       td:first-child
         width 33%
@@ -267,10 +268,79 @@ section
       p+p
         margin 1rem 0 0
 
+
+  &.education
+    .education-list
+      list-style none
+      padding 0
+      margin 0
+      .education-item
+        list-style none
+        margin-block 1.618rem
+        padding-block 0 1.618rem
+        border-bottom 1px solid #e8e8e8
+        &:last-child
+          border-bottom none
+          margin-bottom 0
+        .edu-date
+          color #666
+          font-size 1rem
+          white-space nowrap
+          margin-inline-end 1rem
+          time
+            display inline
+        .edu-content
+          display inline
+          font-weight bold
+          font-size 1rem
+          line-height 1.618rem
+          margin 0
+        .grades
+          list-style-position: inside;
+          margin-block 0.809rem 0
+          margin-inline 0
+          padding 0
+
   &.experience
-    .position
-      font-weight bold
-      margin 0 0 .809rem
+    .experience-list
+      list-style none
+      padding 0
+      margin 0
+      .experience-item
+        list-style none
+        margin-block 1.618rem
+        padding-block 0 1.618rem
+        border-bottom 1px solid #e8e8e8
+        &:last-child
+          border-bottom none
+          margin-bottom 0
+        .exp-date
+          color #666
+          font-size 1rem
+          white-space nowrap
+          margin-inline-end 1rem
+          time
+            display inline
+        h3.position
+          display inline
+          font-weight bold
+          font-size 1rem
+          line-height 1.618rem
+          margin 0
+        .skills
+          color #666
+          font-size 1rem
+          display inline-block
+          margin-block-start 0.809rem
+        section[data-l10n-id^="experience_"]
+          margin-block 0.809rem 0
+          margin-inline 0
+          padding 0
+          p
+            margin 0
+            break-inside avoid
+          p+p
+            margin-top 1.618rem
 
   &.skills
     table
@@ -298,6 +368,25 @@ section
         border-right-style none
       tr:last-child td
         padding-bottom 1.618rem
+    .skills-list
+      list-style none
+      padding 0
+      margin 1.618rem 0 0
+      li
+        margin 0 0 0.809rem
+        line-height 1.618rem
+        .label
+          font-weight normal
+          font-variant small-caps
+          font-variant-caps small-caps
+          text-transform lowercase
+          color #000
+          font-size 1rem
+          letter-spacing 0.05em
+        span:not(.label)
+          font-size 1rem
+          color #000
+
 
 
 @media (max-width: 55rem)
@@ -360,13 +449,37 @@ section
 
   section
     max-width none
-    page-break-inside avoid
-    &.talks
-      page-break-inside auto
+    margin-top 1.618rem
+    margin-bottom 3.236rem
+    page-break-inside auto
     tr,
     td,
     th
       page-break-inside avoid
+    header
+      page-break-after avoid
+
+  // Keep only the four most recent jobs on paper. The class is repeated to
+  // outweigh the specificity of the rule that sets the border.
+  .experience-item:nth-child(n+5)
+    display none
+  .experience-item.experience-item.experience-item.experience-item.experience-item.experience-item:nth-child(4)
+    border-bottom none
+
+  // Keep only the six most recent talks on paper. Talks given in Ukrainian
+  // are dropped from the English version, so it has to skip one row further.
+  html:not([lang^="en"]) .talksTable
+    tr:nth-child(n+7)
+      display none
+    tr:nth-child(6) td
+      border-bottom-style none
+
+  html[lang^="en"] .talksTable
+    tr[data-lang="ua"],
+    tr:nth-child(n+8)
+      display none
+    tr:nth-child(7) td
+      border-bottom-style none
 
 
   a[href^=htt]:after
