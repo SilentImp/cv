@@ -20,11 +20,17 @@ html.no-svg .loading
   background-image url('../svg/clock.png')
 
 
+// The containing block for the header's absolute children lives on body, not
+// on the header itself: a positioned header is painted in a later pass, which
+// pushes the name and contacts to the end of the print/PDF text stream and
+// makes resume parsers miss them.
+body
+  position relative
+
 body>header
   padding 5.236rem 3.236rem 0
   max-width 50rem
   margin auto
-  position relative
   white-space nowrap
   h1
     font-size 4.8rem
@@ -341,6 +347,19 @@ section
             break-inside avoid
           p+p
             margin-top 1.618rem
+          ul
+            list-style disc outside
+            font-size 1rem
+            line-height 1.618rem
+            margin 0
+            padding-inline-start 0
+            li
+              margin 0
+              break-inside avoid
+            li+li
+              margin-top 0.4045rem
+          p+ul
+            margin-top 0.809rem
 
   &.skills
     table
